@@ -1,0 +1,1973 @@
+@prefix : <urn:webprotege:ontology:01ab7fda-5d7c-4e65-9d7e-dd7c20ddc532#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <urn:webprotege:ontology:01ab7fda-5d7c-4e65-9d7e-dd7c20ddc532> .
+
+<urn:webprotege:ontology:01ab7fda-5d7c-4e65-9d7e-dd7c20ddc532> rdf:type owl:Ontology .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://webprotege.stanford.edu/R0UOjvKZC0VMoTGyh2G0su
+<http://webprotege.stanford.edu/R0UOjvKZC0VMoTGyh2G0su> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RDGZzXzeSrhE9ng1lomr5BR> ;
+                                                        rdfs:label "heart_rate_variability" .
+
+
+###  http://webprotege.stanford.edu/R1GUio75UrY2Q2kwXBeXES
+<http://webprotege.stanford.edu/R1GUio75UrY2Q2kwXBeXES> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R8QBTOZP6fn4PRm81XnVOUx> ;
+                                                        rdfs:label "active_minutes" .
+
+
+###  http://webprotege.stanford.edu/R2UYhhsOdJa5k5mLaktrEP
+<http://webprotege.stanford.edu/R2UYhhsOdJa5k5mLaktrEP> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ;
+                                                        rdfs:label "13_downhearted" .
+
+
+###  http://webprotege.stanford.edu/R39wrm1TfN4QjLBQ4QBg92
+<http://webprotege.stanford.edu/R39wrm1TfN4QjLBQ4QBg92> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ;
+                                                        rdfs:label "11_sleep_aids" .
+
+
+###  http://webprotege.stanford.edu/R3lU7INj76wCTRuHG6YL1v
+<http://webprotege.stanford.edu/R3lU7INj76wCTRuHG6YL1v> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/Rc23xWBoPnGw8VrR9PpPMr> ;
+                                                        rdfs:label "rem_sleep_standard_deviation" .
+
+
+###  http://webprotege.stanford.edu/R3wL2DbBRugrqBREz9W6en
+<http://webprotege.stanford.edu/R3wL2DbBRugrqBREz9W6en> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ;
+                                                        rdfs:label "12_no_relax" .
+
+
+###  http://webprotege.stanford.edu/R4cHOlgY1EGIY2PfqQcHaV
+<http://webprotege.stanford.edu/R4cHOlgY1EGIY2PfqQcHaV> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RoqEleHe4GZbutWLhwgC6y> ;
+                                                        rdfs:label "DS4_VitalSigns"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/R4mFbctSBUpXjoUfVKXiP8
+<http://webprotege.stanford.edu/R4mFbctSBUpXjoUfVKXiP8> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                        rdfs:label "fat_burn_maximum_heart_rate" .
+
+
+###  http://webprotege.stanford.edu/R5CzDgqYRaJBQfChccnVK5
+<http://webprotege.stanford.edu/R5CzDgqYRaJBQfChccnVK5> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                        rdfs:label "active_duration" .
+
+
+###  http://webprotege.stanford.edu/R5GM7FV1IhPVkxW8G73PIj
+<http://webprotege.stanford.edu/R5GM7FV1IhPVkxW8G73PIj> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> ;
+                                                        rdfs:label "antibiotics" .
+
+
+###  http://webprotege.stanford.edu/R6IOMGMFlUlNs2t2iWMwOi
+<http://webprotege.stanford.edu/R6IOMGMFlUlNs2t2iWMwOi> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R8L2a1RBhuYURPbSNV9UOyI> ;
+                                                        rdfs:label "start_heart_rate"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K
+<http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCgHzOAjTTObhUSeMpBCU0O> ;
+                                                         rdfs:label "biomarkers" .
+
+
+###  http://webprotege.stanford.edu/R71Gafk027iIhh4k4cbvoHA
+<http://webprotege.stanford.edu/R71Gafk027iIhh4k4cbvoHA> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8JbaoTaWPBifThd4GlghA1> ;
+                                                         rdfs:label "minutes_in_deep_sleep" .
+
+
+###  http://webprotege.stanford.edu/R76uF2Z7r2U3nhGnOnmtcYZ
+<http://webprotege.stanford.edu/R76uF2Z7r2U3nhGnOnmtcYZ> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "tri_mg_dl" .
+
+
+###  http://webprotege.stanford.edu/R7OuihRzosxOubS18Xj0oHb
+<http://webprotege.stanford.edu/R7OuihRzosxOubS18Xj0oHb> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8DTBly51OBBcDAcK7Onv8J> ;
+                                                         rdfs:label "exertion_points" .
+
+
+###  http://webprotege.stanford.edu/R7PaBTDojtlT65KNkhYlgUA
+<http://webprotege.stanford.edu/R7PaBTDojtlT65KNkhYlgUA> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> ;
+                                                         rdfs:label "thyroid_hormone" .
+
+
+###  http://webprotege.stanford.edu/R7QGq4fnQZyaZxwxqzwJEA
+<http://webprotege.stanford.edu/R7QGq4fnQZyaZxwxqzwJEA> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R7pheo8U0PR2IYiLRLYcqFz> ;
+                                                        rdfs:label "systolic_blood_pressure_mmhg"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/R7ReermmgIiUXheP06ZpZXY
+<http://webprotege.stanford.edu/R7ReermmgIiUXheP06ZpZXY> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8L2a1RBhuYURPbSNV9UOyI> ;
+                                                         rdfs:label "end_heart_rate" .
+
+
+###  http://webprotege.stanford.edu/R7TCPgr2tegWizpxrgU6nJV
+<http://webprotege.stanford.edu/R7TCPgr2tegWizpxrgU6nJV> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9B5Fr5QPr0DJzVSrdq0QZ7> ,
+                                                                         <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                         rdfs:label "peak_minutes" .
+
+
+###  http://webprotege.stanford.edu/R7VaZRAO00vo7EtIqawMJza
+<http://webprotege.stanford.edu/R7VaZRAO00vo7EtIqawMJza> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "ldl_mg_dl" .
+
+
+###  http://webprotege.stanford.edu/R7W4hYFru4YcWk1Tp6nnQd4
+<http://webprotege.stanford.edu/R7W4hYFru4YcWk1Tp6nnQd4> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "seg_perc" .
+
+
+###  http://webprotege.stanford.edu/R7Y1PI1No0L3YUiRkNmKAGE
+<http://webprotege.stanford.edu/R7Y1PI1No0L3YUiRkNmKAGE> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RHUdEl5FNMCJNu6XGMutJu> ;
+                                                         rdfs:label "composition_score" .
+
+
+###  http://webprotege.stanford.edu/R7ZOCzkqnUSuKVfGlNUz2bt
+<http://webprotege.stanford.edu/R7ZOCzkqnUSuKVfGlNUz2bt> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ;
+                                                         rdfs:label "sleep_weekend" .
+
+
+###  http://webprotege.stanford.edu/R7ZgbmRl2Toc6xxcefjIizF
+<http://webprotege.stanford.edu/R7ZgbmRl2Toc6xxcefjIizF> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> ;
+                                                         rdfs:label "diabetes" .
+
+
+###  http://webprotege.stanford.edu/R7aWJucqzGsMwXJSSSk2mdb
+<http://webprotege.stanford.edu/R7aWJucqzGsMwXJSSSk2mdb> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ;
+                                                         rdfs:label "defecation" .
+
+
+###  http://webprotege.stanford.edu/R7bjri1mauvvopldyL63fZp
+<http://webprotege.stanford.edu/R7bjri1mauvvopldyL63fZp> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/Rc23xWBoPnGw8VrR9PpPMr> ;
+                                                         rdfs:label "deep_sleep_signal_to_noise" .
+
+
+###  http://webprotege.stanford.edu/R7e4ic5Tj7nOIeqVGdnXKDn
+<http://webprotege.stanford.edu/R7e4ic5Tj7nOIeqVGdnXKDn> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RDGZzXzeSrhE9ng1lomr5BR> ;
+                                                         rdfs:label "oxygen_saturation" .
+
+
+###  http://webprotege.stanford.edu/R7eCZyAnGk3sAhCdS4gFswl
+<http://webprotege.stanford.edu/R7eCZyAnGk3sAhCdS4gFswl> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8JbaoTaWPBifThd4GlghA1> ,
+                                                                         <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                         rdfs:label "duration" .
+
+
+###  http://webprotege.stanford.edu/R7fc02IShFcC9poxPWTGCB4
+<http://webprotege.stanford.edu/R7fc02IShFcC9poxPWTGCB4> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8QBTOZP6fn4PRm81XnVOUx> ;
+                                                         rdfs:label "additional_physical_activity_data" .
+
+
+###  http://webprotege.stanford.edu/R7ffNwLPYewuDzPGXOZ2Yt5
+<http://webprotege.stanford.edu/R7ffNwLPYewuDzPGXOZ2Yt5> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R93hH6ftvpVAaCfos17ZRPk> ;
+                                                         rdfs:label "A4F_10021_labeled_data"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/R7ioNx2oib7zWGZf8hkrEL6
+<http://webprotege.stanford.edu/R7ioNx2oib7zWGZf8hkrEL6> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ;
+                                                         rdfs:label "eating_disorder" .
+
+
+###  http://webprotege.stanford.edu/R7j8nf7JjB4CMUsMj3a2CdJ
+<http://webprotege.stanford.edu/R7j8nf7JjB4CMUsMj3a2CdJ> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> ;
+                                                         rdfs:label "other_illness" .
+
+
+###  http://webprotege.stanford.edu/R7k4XL4lCKv82dFBD6Lk558
+<http://webprotege.stanford.edu/R7k4XL4lCKv82dFBD6Lk558> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ;
+                                                         rdfs:label "10e_others" .
+
+
+###  http://webprotege.stanford.edu/R7kPmpcMAoFefk91gQYUTNl
+<http://webprotege.stanford.edu/R7kPmpcMAoFefk91gQYUTNl> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                         rdfs:label "peak_maximum_heart_rate" .
+
+
+###  http://webprotege.stanford.edu/R7ksaEepcO7Q191ucCXJ9Zi
+<http://webprotege.stanford.edu/R7ksaEepcO7Q191ucCXJ9Zi> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/Rw1SA04goDB9ti8NTXNdrk> ;
+                                                         rdfs:label "vigorous_n_days" .
+
+
+###  http://webprotege.stanford.edu/R7mWZXEHnULkfxaJftGf8bk
+<http://webprotege.stanford.edu/R7mWZXEHnULkfxaJftGf8bk> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RDieEvTw5qkM2Et7gvmyITm> ;
+                                                         rdfs:label "fat_mass_perc" .
+
+
+###  http://webprotege.stanford.edu/R7mZmAwSdQwoockbDNplvjg
+<http://webprotege.stanford.edu/R7mZmAwSdQwoockbDNplvjg> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ;
+                                                         rdfs:label "distilled_perc" .
+
+
+###  http://webprotege.stanford.edu/R7nTDiNM2aO9eikVK5O4s6N
+<http://webprotege.stanford.edu/R7nTDiNM2aO9eikVK5O4s6N> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> ;
+                                                         rdfs:label "hypertension" .
+
+
+###  http://webprotege.stanford.edu/R7pheo8U0PR2IYiLRLYcqFz
+<http://webprotege.stanford.edu/R7pheo8U0PR2IYiLRLYcqFz> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R4cHOlgY1EGIY2PfqQcHaV> ;
+                                                         rdfs:label "vital_signs"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/R7qFTIA7TBCon1iM3RLUiad
+<http://webprotege.stanford.edu/R7qFTIA7TBCon1iM3RLUiad> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ;
+                                                         rdfs:label "2_1_initiate_sleep" .
+
+
+###  http://webprotege.stanford.edu/R7rjlkpx8r8ffySG4B7rfcz
+<http://webprotege.stanford.edu/R7rjlkpx8r8ffySG4B7rfcz> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> ;
+                                                         rdfs:label "lactose_intolerance" .
+
+
+###  http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5
+<http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RwJ5g1trIrj160wMBDKYUl> ;
+                                                         rdfs:label "lifestyle" .
+
+
+###  http://webprotege.stanford.edu/R7y6Wc0cl21sXXTsNOSU55y
+<http://webprotege.stanford.edu/R7y6Wc0cl21sXXTsNOSU55y> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8TjBkDwkAktgyLZjcaowXU> ;
+                                                         rdfs:label "distance" .
+
+
+###  http://webprotege.stanford.edu/R7zCVM9JdWdyYTLNVfYj3mf
+<http://webprotege.stanford.edu/R7zCVM9JdWdyYTLNVfYj3mf> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8DTBly51OBBcDAcK7Onv8J> ;
+                                                         rdfs:label "responsiveness_points" .
+
+
+###  http://webprotege.stanford.edu/R7zG0l11GaYknXhZiyGhHng
+<http://webprotege.stanford.edu/R7zG0l11GaYknXhZiyGhHng> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                         rdfs:label "cardio_calories" .
+
+
+###  http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4
+<http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RDGZzXzeSrhE9ng1lomr5BR> ;
+                                                        rdfs:label "OviedoSleepQuestionnaire" .
+
+
+###  http://webprotege.stanford.edu/R80wT98gwvZxsXZJKmZ6uE7
+<http://webprotege.stanford.edu/R80wT98gwvZxsXZJKmZ6uE7> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ;
+                                                         rdfs:label "6_overreact" .
+
+
+###  http://webprotege.stanford.edu/R831K27eOy2HeeAaQ1v28V9
+<http://webprotege.stanford.edu/R831K27eOy2HeeAaQ1v28V9> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RYMHWiR4wGKWcOpgPGfkyn> ;
+                                                         rdfs:label "A4F_10021_estimated_vo2" .
+
+
+###  http://webprotege.stanford.edu/R83nvs8pIw68q9hqKWe16RJ
+<http://webprotege.stanford.edu/R83nvs8pIw68q9hqKWe16RJ> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9amOXXv0LZJUC9kaSigIPT> ;
+                                                         rdfs:label "heart_rate" .
+
+
+###  http://webprotege.stanford.edu/R85iXOKSTnruszdyyLvuXSW
+<http://webprotege.stanford.edu/R85iXOKSTnruszdyyLvuXSW> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8L2a1RBhuYURPbSNV9UOyI> ;
+                                                         rdfs:label "hrv_baseline" .
+
+
+###  http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr
+<http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RwJ5g1trIrj160wMBDKYUl> ;
+                                                         rdfs:label "health" .
+
+
+###  http://webprotege.stanford.edu/R86WhO9Z88BLJEanIQTdT3t
+<http://webprotege.stanford.edu/R86WhO9Z88BLJEanIQTdT3t> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RB7fMmkFi1ruGMtRMBqSZRx> ;
+                                                         rdfs:label "sleep_average_oxygen_saturation" .
+
+
+###  http://webprotege.stanford.edu/R86hgGUmGAPacQTqcfBjKCb
+<http://webprotege.stanford.edu/R86hgGUmGAPacQTqcfBjKCb> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ;
+                                                         rdfs:label "4_wake_up_night" .
+
+
+###  http://webprotege.stanford.edu/R87MKnrEeOVL3q7P9m2Wvu3
+<http://webprotege.stanford.edu/R87MKnrEeOVL3q7P9m2Wvu3> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> ;
+                                                         rdfs:label "other_medication" .
+
+
+###  http://webprotege.stanford.edu/R88VubQm4rBdelWBd9djBwU
+<http://webprotege.stanford.edu/R88VubQm4rBdelWBd9djBwU> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "hba1ifcc_mmol_mol" .
+
+
+###  http://webprotege.stanford.edu/R896ym4mEce7RMqayywiPuc
+<http://webprotege.stanford.edu/R896ym4mEce7RMqayywiPuc> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ;
+                                                         rdfs:label "2_4_usual_waking_up" .
+
+
+###  http://webprotege.stanford.edu/R8CEmGNjTLVXMvxfAA9Tme7
+<http://webprotege.stanford.edu/R8CEmGNjTLVXMvxfAA9Tme7> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R831K27eOy2HeeAaQ1v28V9> ,
+                                                                         <http://webprotege.stanford.edu/R8DTBly51OBBcDAcK7Onv8J> ,
+                                                                         <http://webprotege.stanford.edu/R8KIU3v4FOlKOVtum5Pigdy> ,
+                                                                         <http://webprotege.stanford.edu/R8L2a1RBhuYURPbSNV9UOyI> ,
+                                                                         <http://webprotege.stanford.edu/R8TjBkDwkAktgyLZjcaowXU> ,
+                                                                         <http://webprotege.stanford.edu/R99ro7ATmcMrNxhIPpFKuiB> ,
+                                                                         <http://webprotege.stanford.edu/R9B5Fr5QPr0DJzVSrdq0QZ7> ,
+                                                                         <http://webprotege.stanford.edu/R9JSHgwSszcEKKOZ20swTie> ,
+                                                                         <http://webprotege.stanford.edu/R9amOXXv0LZJUC9kaSigIPT> ,
+                                                                         <http://webprotege.stanford.edu/R9rDoBvAgf82PySbbrBthFU> ,
+                                                                         <http://webprotege.stanford.edu/RB7fMmkFi1ruGMtRMBqSZRx> ,
+                                                                         <http://webprotege.stanford.edu/RBt6hrY5HTHzn9SetpgcdES> ,
+                                                                         <http://webprotege.stanford.edu/RDZEzB6ueO2RlOhfkDfSuU5> ,
+                                                                         <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ,
+                                                                         <http://webprotege.stanford.edu/Rc23xWBoPnGw8VrR9PpPMr> ;
+                                                         rdfs:label "timestamp" .
+
+
+###  http://webprotege.stanford.edu/R8DTBly51OBBcDAcK7Onv8J
+<http://webprotege.stanford.edu/R8DTBly51OBBcDAcK7Onv8J> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8SzKFTar8ymCmq6uFuErsh> ;
+                                                         rdfs:label "A4F_10021_stress_score" .
+
+
+###  http://webprotege.stanford.edu/R8Ey58c4tJoqBOPD70GiDxW
+<http://webprotege.stanford.edu/R8Ey58c4tJoqBOPD70GiDxW> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ;
+                                                         rdfs:label "sleep_satisfaction_score" .
+
+
+###  http://webprotege.stanford.edu/R8FGwJT3ERyvaYWNMTVkmV8
+<http://webprotege.stanford.edu/R8FGwJT3ERyvaYWNMTVkmV8> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ;
+                                                         rdfs:label "20_scared" .
+
+
+###  http://webprotege.stanford.edu/R8GZA5p0SDQJSpl4CAFIdcm
+<http://webprotege.stanford.edu/R8GZA5p0SDQJSpl4CAFIdcm> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                         rdfs:label "peak_calories" .
+
+
+###  http://webprotege.stanford.edu/R8HsiadfjcPDd772fbdQZNA
+<http://webprotege.stanford.edu/R8HsiadfjcPDd772fbdQZNA> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8JbaoTaWPBifThd4GlghA1> ;
+                                                         rdfs:label "minutes_awake" .
+
+
+###  http://webprotege.stanford.edu/R8JbaoTaWPBifThd4GlghA1
+<http://webprotege.stanford.edu/R8JbaoTaWPBifThd4GlghA1> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBmzhhKsdgZAsCEXQzTO6G9> ;
+                                                         rdfs:label "A4F_10021_additional_sleep_data" .
+
+
+###  http://webprotege.stanford.edu/R8KIU3v4FOlKOVtum5Pigdy
+<http://webprotege.stanford.edu/R8KIU3v4FOlKOVtum5Pigdy> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R93hH6ftvpVAaCfos17ZRPk> ;
+                                                         rdfs:label "A4F_10021_timestamps"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/R8KNkVzo5gZtDFh3rrBhwyg
+<http://webprotege.stanford.edu/R8KNkVzo5gZtDFh3rrBhwyg> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> ;
+                                                         rdfs:label "hypercholesterolemia" .
+
+
+###  http://webprotege.stanford.edu/R8L2a1RBhuYURPbSNV9UOyI
+<http://webprotege.stanford.edu/R8L2a1RBhuYURPbSNV9UOyI> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBaqogmMPVCTjNxvnFKd8no> ;
+                                                         rdfs:label "A4F_10021_eda_sessions" .
+
+
+###  http://webprotege.stanford.edu/R8L4e5javnNiR8mcH9Ahrjt
+<http://webprotege.stanford.edu/R8L4e5javnNiR8mcH9Ahrjt> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> ;
+                                                         rdfs:label "hyperthyroidism" .
+
+
+###  http://webprotege.stanford.edu/R8LXAYyVfzNCrkrYiFDWYpP
+<http://webprotege.stanford.edu/R8LXAYyVfzNCrkrYiFDWYpP> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ;
+                                                         rdfs:label "19_heart" .
+
+
+###  http://webprotege.stanford.edu/R8LhtxHzKYxVReD4SOsbv79
+<http://webprotege.stanford.edu/R8LhtxHzKYxVReD4SOsbv79> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RVsuqBhJgSybSbCBXxEn0P> ;
+                                                         rdfs:label "temperature_samples" .
+
+
+###  http://webprotege.stanford.edu/R8MB0KXILFDyhfatgzaqU1e
+<http://webprotege.stanford.edu/R8MB0KXILFDyhfatgzaqU1e> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "mpv_fl" .
+
+
+###  http://webprotege.stanford.edu/R8NdcYc303OUTLONqrouJbo
+<http://webprotege.stanford.edu/R8NdcYc303OUTLONqrouJbo> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "plats_10e3_ul" .
+
+
+###  http://webprotege.stanford.edu/R8NsrdiipD0Ub3LMY3Jrb2K
+<http://webprotege.stanford.edu/R8NsrdiipD0Ub3LMY3Jrb2K> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7ffNwLPYewuDzPGXOZ2Yt5> ;
+                                                         rdfs:label "cooking_style" .
+
+
+###  http://webprotege.stanford.edu/R8PqScTxKEL5US0aIgLJlpx
+<http://webprotege.stanford.edu/R8PqScTxKEL5US0aIgLJlpx> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8TjBkDwkAktgyLZjcaowXU> ,
+                                                                         <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                         rdfs:label "steps" .
+
+
+###  http://webprotege.stanford.edu/R8QBTOZP6fn4PRm81XnVOUx
+<http://webprotege.stanford.edu/R8QBTOZP6fn4PRm81XnVOUx> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RoqEleHe4GZbutWLhwgC6y> ;
+                                                         rdfs:label "DS5_PhysicalActivity"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/R8QoIcm5Nmy86lDp3PLCHLM
+<http://webprotege.stanford.edu/R8QoIcm5Nmy86lDp3PLCHLM> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "tnf_a_ui_ml" .
+
+
+###  http://webprotege.stanford.edu/R8Sb3hmQDTq9Hx3SxJVPQRB
+<http://webprotege.stanford.edu/R8Sb3hmQDTq9Hx3SxJVPQRB> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ;
+                                                         rdfs:label "6b_hours_bed" .
+
+
+###  http://webprotege.stanford.edu/R8SzKFTar8ymCmq6uFuErsh
+<http://webprotege.stanford.edu/R8SzKFTar8ymCmq6uFuErsh> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RD0Q8AMqlqIs4b3uZrlZdv> ;
+                                                         rdfs:label "stress_score"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/R8TjBkDwkAktgyLZjcaowXU
+<http://webprotege.stanford.edu/R8TjBkDwkAktgyLZjcaowXU> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7fc02IShFcC9poxPWTGCB4> ;
+                                                         rdfs:label "A4F_10021_additional_physical_activity_data" .
+
+
+###  http://webprotege.stanford.edu/R8UWzteLG85lURgdEmn7CGP
+<http://webprotege.stanford.edu/R8UWzteLG85lURgdEmn7CGP> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ;
+                                                         rdfs:label "somnolence" .
+
+
+###  http://webprotege.stanford.edu/R8VTQ4sskXDhz3O1J9TjAA
+<http://webprotege.stanford.edu/R8VTQ4sskXDhz3O1J9TjAA> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> ;
+                                                        rdfs:label "no_illness" .
+
+
+###  http://webprotege.stanford.edu/R8VlJGCLD18rugD7s5EEcDx
+<http://webprotege.stanford.edu/R8VlJGCLD18rugD7s5EEcDx> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/Rc23xWBoPnGw8VrR9PpPMr> ;
+                                                         rdfs:label "light_sleep_signal_to_noise" .
+
+
+###  http://webprotege.stanford.edu/R8VoHaXhezKjgSVnc9crWx6
+<http://webprotege.stanford.edu/R8VoHaXhezKjgSVnc9crWx6> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9rDoBvAgf82PySbbrBthFU> ;
+                                                         rdfs:label "result_classification"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/R8W7kcu5yaQLuXlOx2JioLq
+<http://webprotege.stanford.edu/R8W7kcu5yaQLuXlOx2JioLq> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "baso_10e3_ul" .
+
+
+###  http://webprotege.stanford.edu/R8WgeoxB0SzTqRluxz6lsRx
+<http://webprotege.stanford.edu/R8WgeoxB0SzTqRluxz6lsRx> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RVsuqBhJgSybSbCBXxEn0P> ;
+                                                         rdfs:label "baseline_relative_sample_sum" .
+
+
+###  http://webprotege.stanford.edu/R8YLsyrEgVxrTyuYW43TxWh
+<http://webprotege.stanford.edu/R8YLsyrEgVxrTyuYW43TxWh> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RDieEvTw5qkM2Et7gvmyITm> ;
+                                                         rdfs:label "hip_cm" .
+
+
+###  http://webprotege.stanford.edu/R8Z3qqYQJewDXNRXrpsSt7I
+<http://webprotege.stanford.edu/R8Z3qqYQJewDXNRXrpsSt7I> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8JbaoTaWPBifThd4GlghA1> ;
+                                                         rdfs:label "minutes_asleep" .
+
+
+###  http://webprotege.stanford.edu/R8ZaAnkHcctKMEIbGXUVNFw
+<http://webprotege.stanford.edu/R8ZaAnkHcctKMEIbGXUVNFw> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ;
+                                                         rdfs:label "pipe_day" .
+
+
+###  http://webprotege.stanford.edu/R8ZtULSKe8ewM1VtrLZBu8U
+<http://webprotege.stanford.edu/R8ZtULSKe8ewM1VtrLZBu8U> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/Rw1SA04goDB9ti8NTXNdrk> ;
+                                                         rdfs:label "walking_min_day" .
+
+
+###  http://webprotege.stanford.edu/R8cXGLkaySKAi739OfpnsqF
+<http://webprotege.stanford.edu/R8cXGLkaySKAi739OfpnsqF> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ;
+                                                         rdfs:label "8_nervous_energy" .
+
+
+###  http://webprotege.stanford.edu/R8f7q6qjPilLHmkrMt60SvW
+<http://webprotege.stanford.edu/R8f7q6qjPilLHmkrMt60SvW> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ;
+                                                         rdfs:label "cigarettes_day" .
+
+
+###  http://webprotege.stanford.edu/R8hIffJKvaDFnOoVIeS38KO
+<http://webprotege.stanford.edu/R8hIffJKvaDFnOoVIeS38KO> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9B5Fr5QPr0DJzVSrdq0QZ7> ,
+                                                                         <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                         rdfs:label "cardio_minutes" .
+
+
+###  http://webprotege.stanford.edu/R8j7awpE78ReV8bKohrYjsl
+<http://webprotege.stanford.edu/R8j7awpE78ReV8bKohrYjsl> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "homa" .
+
+
+###  http://webprotege.stanford.edu/R8p1iEa8BBIoJLLqDBtdOzL
+<http://webprotege.stanford.edu/R8p1iEa8BBIoJLLqDBtdOzL> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                         rdfs:label "out_of_range_minimum_heart_rate" .
+
+
+###  http://webprotege.stanford.edu/R8qlY83wRrjA90WztNIlXIf
+<http://webprotege.stanford.edu/R8qlY83wRrjA90WztNIlXIf> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBt6hrY5HTHzn9SetpgcdES> ;
+                                                         rdfs:label "glucose_value_in_mg_dl" .
+
+
+###  http://webprotege.stanford.edu/R8uG5y9r8AvLfLyfzDRIeOr
+<http://webprotege.stanford.edu/R8uG5y9r8AvLfLyfzDRIeOr> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RHUdEl5FNMCJNu6XGMutJu> ;
+                                                         rdfs:label "restlessness" .
+
+
+###  http://webprotege.stanford.edu/R8vXY8vKaIlgINl1TViOTXO
+<http://webprotege.stanford.edu/R8vXY8vKaIlgINl1TViOTXO> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8L2a1RBhuYURPbSNV9UOyI> ,
+                                                                         <http://webprotege.stanford.edu/R9rDoBvAgf82PySbbrBthFU> ,
+                                                                         <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                         rdfs:label "average_heart_rate"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z
+<http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RD0Q8AMqlqIs4b3uZrlZdv> ;
+                                                         rdfs:label "DASS-21" .
+
+
+###  http://webprotege.stanford.edu/R8z08ONWRFCWYtxeLUsUaDn
+<http://webprotege.stanford.edu/R8z08ONWRFCWYtxeLUsUaDn> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "mono_perc" .
+
+
+###  http://webprotege.stanford.edu/R8zHmcJ2uOS5CD2jZNIM4n1
+<http://webprotege.stanford.edu/R8zHmcJ2uOS5CD2jZNIM4n1> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "mono_10e3_ul" .
+
+
+###  http://webprotege.stanford.edu/R8zSlNGEAG033JlmDYTCrff
+<http://webprotege.stanford.edu/R8zSlNGEAG033JlmDYTCrff> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ;
+                                                         rdfs:label "6a_hours_sleep" .
+
+
+###  http://webprotege.stanford.edu/R91BQJJ8bKwRbrGFUF411tt
+<http://webprotege.stanford.edu/R91BQJJ8bKwRbrGFUF411tt> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ;
+                                                         rdfs:label "others_ml" .
+
+
+###  http://webprotege.stanford.edu/R92sY2zMKww8DQubmcvYU0a
+<http://webprotege.stanford.edu/R92sY2zMKww8DQubmcvYU0a> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ;
+                                                         rdfs:label "5_wake_up_earlier" .
+
+
+###  http://webprotege.stanford.edu/R9382jCPIOTxXRhai2kMaji
+<http://webprotege.stanford.edu/R9382jCPIOTxXRhai2kMaji> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ;
+                                                         rdfs:label "water_ml" .
+
+
+###  http://webprotege.stanford.edu/R93hH6ftvpVAaCfos17ZRPk
+<http://webprotege.stanford.edu/R93hH6ftvpVAaCfos17ZRPk> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RoqEleHe4GZbutWLhwgC6y> ;
+                                                         rdfs:label "DS9_FoodNExtDB"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/R93udrZcmQfY5ZAzGBRU3tH
+<http://webprotege.stanford.edu/R93udrZcmQfY5ZAzGBRU3tH> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8QBTOZP6fn4PRm81XnVOUx> ;
+                                                         rdfs:label "physical_activity_reports" .
+
+
+###  http://webprotege.stanford.edu/R94WtWZvoOD4Hqkc9YZUA2a
+<http://webprotege.stanford.edu/R94WtWZvoOD4Hqkc9YZUA2a> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RDieEvTw5qkM2Et7gvmyITm> ;
+                                                         rdfs:label "period" .
+
+
+###  http://webprotege.stanford.edu/R96eXnepuM0MRAODBJYu0tD
+<http://webprotege.stanford.edu/R96eXnepuM0MRAODBJYu0tD> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7pheo8U0PR2IYiLRLYcqFz> ;
+                                                         rdfs:label "heart_rate_bpm"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/R97f5wPm4fgyHJpQdmJmyFz
+<http://webprotege.stanford.edu/R97f5wPm4fgyHJpQdmJmyFz> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/Rc23xWBoPnGw8VrR9PpPMr> ;
+                                                         rdfs:label "light_sleep_breathing_rate" .
+
+
+###  http://webprotege.stanford.edu/R98AI9ZLwkurWXjXIS0KCNn
+<http://webprotege.stanford.edu/R98AI9ZLwkurWXjXIS0KCNn> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9B5Fr5QPr0DJzVSrdq0QZ7> ;
+                                                         rdfs:label "moderately_active_minutes" .
+
+
+###  http://webprotege.stanford.edu/R99ro7ATmcMrNxhIPpFKuiB
+<http://webprotege.stanford.edu/R99ro7ATmcMrNxhIPpFKuiB> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7e4ic5Tj7nOIeqVGdnXKDn> ;
+                                                         rdfs:label "A4F_10021_oxygen_saturation_by_minute" .
+
+
+###  http://webprotege.stanford.edu/R9AdvtXaIuJb0nXXES8Mqe8
+<http://webprotege.stanford.edu/R9AdvtXaIuJb0nXXES8Mqe8> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RDGZzXzeSrhE9ng1lomr5BR> ;
+                                                         rdfs:label "respiratory_rate" .
+
+
+###  http://webprotege.stanford.edu/R9B5Fr5QPr0DJzVSrdq0QZ7
+<http://webprotege.stanford.edu/R9B5Fr5QPr0DJzVSrdq0QZ7> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R1GUio75UrY2Q2kwXBeXES> ;
+                                                         rdfs:label "A4F_10021_active_minutes" .
+
+
+###  http://webprotege.stanford.edu/R9DcPg6rB9U9D5xbYLpg4B8
+<http://webprotege.stanford.edu/R9DcPg6rB9U9D5xbYLpg4B8> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ;
+                                                         rdfs:label "urination" .
+
+
+###  http://webprotege.stanford.edu/R9DhzILMSm72pWeMt2bqHw
+<http://webprotege.stanford.edu/R9DhzILMSm72pWeMt2bqHw> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                        rdfs:label "leukocytes_10e3_ul" .
+
+
+###  http://webprotege.stanford.edu/R9EPOhq2Bss1hC1YpeNAQ6q
+<http://webprotege.stanford.edu/R9EPOhq2Bss1hC1YpeNAQ6q> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RDieEvTw5qkM2Et7gvmyITm> ;
+                                                         rdfs:label "waist_cm" .
+
+
+###  http://webprotege.stanford.edu/R9HMzprjmGgWRc23zu010yX
+<http://webprotege.stanford.edu/R9HMzprjmGgWRc23zu010yX> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8JbaoTaWPBifThd4GlghA1> ;
+                                                         rdfs:label "minutes_in_rem" .
+
+
+###  http://webprotege.stanford.edu/R9JSHgwSszcEKKOZ20swTie
+<http://webprotege.stanford.edu/R9JSHgwSszcEKKOZ20swTie> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R0UOjvKZC0VMoTGyh2G0su> ;
+                                                         rdfs:label "A4F_10021_heart_rate_variability" .
+
+
+###  http://webprotege.stanford.edu/R9JsQQ5WrYePiI0KqyCV9JS
+<http://webprotege.stanford.edu/R9JsQQ5WrYePiI0KqyCV9JS> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "hba1c_perc" .
+
+
+###  http://webprotege.stanford.edu/R9KdKBTXZBO10xztSMHkYzY
+<http://webprotege.stanford.edu/R9KdKBTXZBO10xztSMHkYzY> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ;
+                                                         rdfs:label "meals_weekend_out" .
+
+
+###  http://webprotege.stanford.edu/R9Ks8pT4Y0zfM8AJmp8YmAB
+<http://webprotege.stanford.edu/R9Ks8pT4Y0zfM8AJmp8YmAB> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R4cHOlgY1EGIY2PfqQcHaV> ;
+                                                         rdfs:label "HeartRate"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/R9MldRtGZlYBOTYOksiXu
+<http://webprotege.stanford.edu/R9MldRtGZlYBOTYOksiXu> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                       rdfs:label "lympho_perc" .
+
+
+###  http://webprotege.stanford.edu/R9MyRy583EYkLWfnamK1L0c
+<http://webprotege.stanford.edu/R9MyRy583EYkLWfnamK1L0c> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ;
+                                                         rdfs:label "1_satisfaction_sleep" .
+
+
+###  http://webprotege.stanford.edu/R9ODbUHcA6wnZQokrUsi51s
+<http://webprotege.stanford.edu/R9ODbUHcA6wnZQokrUsi51s> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RHUdEl5FNMCJNu6XGMutJu> ;
+                                                         rdfs:label "duration_score" .
+
+
+###  http://webprotege.stanford.edu/R9PYzBjKysXMgMDPzh8FDiy
+<http://webprotege.stanford.edu/R9PYzBjKysXMgMDPzh8FDiy> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "homocysteine_umol_l" .
+
+
+###  http://webprotege.stanford.edu/R9PmxTAWmD1QHewLq1l605v
+<http://webprotege.stanford.edu/R9PmxTAWmD1QHewLq1l605v> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "eos_perc" .
+
+
+###  http://webprotege.stanford.edu/R9RDM5lByKTHMgOJreojjzQ
+<http://webprotege.stanford.edu/R9RDM5lByKTHMgOJreojjzQ> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R831K27eOy2HeeAaQ1v28V9> ;
+                                                         rdfs:label "demographic_vo2_max" .
+
+
+###  http://webprotege.stanford.edu/R9SN9BEuR7TAEqLeDpAd5Jl
+<http://webprotege.stanford.edu/R9SN9BEuR7TAEqLeDpAd5Jl> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7ffNwLPYewuDzPGXOZ2Yt5> ;
+                                                         rdfs:label "subcategory" .
+
+
+###  http://webprotege.stanford.edu/R9UPf32cFqD6RonhRmxVXh2
+<http://webprotege.stanford.edu/R9UPf32cFqD6RonhRmxVXh2> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RDGZzXzeSrhE9ng1lomr5BR> ;
+                                                         rdfs:label "skin_temperature" .
+
+
+###  http://webprotege.stanford.edu/R9VcUxanwYljVQTFKvcAf10
+<http://webprotege.stanford.edu/R9VcUxanwYljVQTFKvcAf10> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "prealbumin_mg_dl" .
+
+
+###  http://webprotege.stanford.edu/R9YVf7l5bdHNp4M0DhU1Ei7
+<http://webprotege.stanford.edu/R9YVf7l5bdHNp4M0DhU1Ei7> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCFiaaCmilos1IFF0BwHIxH> ;
+                                                         rdfs:label "intervention_diet_kcal" .
+
+
+###  http://webprotege.stanford.edu/R9ZXJzkynAW3Gwhfd7tfzwt
+<http://webprotege.stanford.edu/R9ZXJzkynAW3Gwhfd7tfzwt> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ;
+                                                         rdfs:label "depression_score" .
+
+
+###  http://webprotege.stanford.edu/R9ZgJe8Iw35PQkNVymkhDdq
+<http://webprotege.stanford.edu/R9ZgJe8Iw35PQkNVymkhDdq> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> ;
+                                                         rdfs:label "hypothyroidism" .
+
+
+###  http://webprotege.stanford.edu/R9amOXXv0LZJUC9kaSigIPT
+<http://webprotege.stanford.edu/R9amOXXv0LZJUC9kaSigIPT> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9Ks8pT4Y0zfM8AJmp8YmAB> ;
+                                                         rdfs:label "A4F_10021_heart_rate" .
+
+
+###  http://webprotege.stanford.edu/R9c4XbceCc275LqrYJUVn67
+<http://webprotege.stanford.edu/R9c4XbceCc275LqrYJUVn67> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RHUdEl5FNMCJNu6XGMutJu> ;
+                                                         rdfs:label "revitalization_score" .
+
+
+###  http://webprotege.stanford.edu/R9dTiUx0kfxRs1jDrCHk9Ym
+<http://webprotege.stanford.edu/R9dTiUx0kfxRs1jDrCHk9Ym> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                         rdfs:label "cardio_maximum_heart_rate" .
+
+
+###  http://webprotege.stanford.edu/R9dfbu6TtrX5kyoU3vQTDu2
+<http://webprotege.stanford.edu/R9dfbu6TtrX5kyoU3vQTDu2> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9rDoBvAgf82PySbbrBthFU> ;
+                                                         rdfs:label "heart_rate_alert"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/R9hqx9vG5eCL9V3UtcNmnzS
+<http://webprotege.stanford.edu/R9hqx9vG5eCL9V3UtcNmnzS> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "rdw_perc" .
+
+
+###  http://webprotege.stanford.edu/R9iJYc14kXtXaRSX8SeCUcl
+<http://webprotege.stanford.edu/R9iJYc14kXtXaRSX8SeCUcl> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/Rc23xWBoPnGw8VrR9PpPMr> ;
+                                                         rdfs:label "full_sleep_breathing_rate" .
+
+
+###  http://webprotege.stanford.edu/R9kOePX9azuSYtgQC8YyTDa
+<http://webprotege.stanford.edu/R9kOePX9azuSYtgQC8YyTDa> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "hdl_mg_dl" .
+
+
+###  http://webprotege.stanford.edu/R9lS1I21dR4z6P44lg4n6Bw
+<http://webprotege.stanford.edu/R9lS1I21dR4z6P44lg4n6Bw> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ;
+                                                         rdfs:label "sleep_weekdays" .
+
+
+###  http://webprotege.stanford.edu/R9mtbtDJ62ywKkTff1t5sFM
+<http://webprotege.stanford.edu/R9mtbtDJ62ywKkTff1t5sFM> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ;
+                                                         rdfs:label "somnolence_score" .
+
+
+###  http://webprotege.stanford.edu/R9oGv6vkfW3pAs3TPfpaXRV
+<http://webprotege.stanford.edu/R9oGv6vkfW3pAs3TPfpaXRV> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ;
+                                                         rdfs:label "2_2_remain_sleep" .
+
+
+###  http://webprotege.stanford.edu/R9rDoBvAgf82PySbbrBthFU
+<http://webprotege.stanford.edu/R9rDoBvAgf82PySbbrBthFU> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RISrMruxnZ2NQCaRBzqXQU> ;
+                                                         rdfs:label "A4F_10021_electrocardiogram" .
+
+
+###  http://webprotege.stanford.edu/R9swbzbuDurUELGN4zlRVpe
+<http://webprotege.stanford.edu/R9swbzbuDurUELGN4zlRVpe> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "igm_mg_dl" .
+
+
+###  http://webprotege.stanford.edu/R9tB0L1b0fL7L0PHt4Yz7Dj
+<http://webprotege.stanford.edu/R9tB0L1b0fL7L0PHt4Yz7Dj> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RoqEleHe4GZbutWLhwgC6y> ;
+                                                         rdfs:label "DS1_AnthropometricMeasurements"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/R9uvMyoI74PUsy2vT3JC3N5
+<http://webprotege.stanford.edu/R9uvMyoI74PUsy2vT3JC3N5> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> ;
+                                                         rdfs:label "oral_contraceptive" .
+
+
+###  http://webprotege.stanford.edu/R9wlTW8JD1MYZigUA4WBe8u
+<http://webprotege.stanford.edu/R9wlTW8JD1MYZigUA4WBe8u> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7pheo8U0PR2IYiLRLYcqFz> ,
+                                                                         <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ,
+                                                                         <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ,
+                                                                         <http://webprotege.stanford.edu/RDieEvTw5qkM2Et7gvmyITm> ,
+                                                                         <http://webprotege.stanford.edu/Rw1SA04goDB9ti8NTXNdrk> ;
+                                                         rdfs:label "visit" .
+
+
+###  http://webprotege.stanford.edu/R9yFIoFDMr4hIDwQLfhpzqj
+<http://webprotege.stanford.edu/R9yFIoFDMr4hIDwQLfhpzqj> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ;
+                                                         rdfs:label "meals_weekdays_home" .
+
+
+###  http://webprotege.stanford.edu/R9yg49LhEuyJgTAwJKuU2Wv
+<http://webprotege.stanford.edu/R9yg49LhEuyJgTAwJKuU2Wv> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ;
+                                                         rdfs:label "8_somnolence_days" .
+
+
+###  http://webprotege.stanford.edu/R9yonVUHyiwoXIDKIhP4euY
+<http://webprotege.stanford.edu/R9yonVUHyiwoXIDKIhP4euY> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RVsuqBhJgSybSbCBXxEn0P> ;
+                                                         rdfs:label "start_sleep" .
+
+
+###  http://webprotege.stanford.edu/R9zxawdXNvgU7PevqZS8Kae
+<http://webprotege.stanford.edu/R9zxawdXNvgU7PevqZS8Kae> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ;
+                                                         rdfs:label "others_psychological" .
+
+
+###  http://webprotege.stanford.edu/RB0Ccidh3w48Bt9YBhCa1Cg
+<http://webprotege.stanford.edu/RB0Ccidh3w48Bt9YBhCa1Cg> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RVsuqBhJgSybSbCBXxEn0P> ;
+                                                         rdfs:label "nightly_temperature" .
+
+
+###  http://webprotege.stanford.edu/RB4xcXmRIjZdwraNfe0nCUT
+<http://webprotege.stanford.edu/RB4xcXmRIjZdwraNfe0nCUT> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "glu_mg_dl" .
+
+
+###  http://webprotege.stanford.edu/RB7fMmkFi1ruGMtRMBqSZRx
+<http://webprotege.stanford.edu/RB7fMmkFi1ruGMtRMBqSZRx> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7e4ic5Tj7nOIeqVGdnXKDn> ;
+                                                         rdfs:label "A4F_10021_daily_oxygen_saturation" .
+
+
+###  http://webprotege.stanford.edu/RBAvI8iVHpc4rF4BMPhq2XV
+<http://webprotege.stanford.edu/RBAvI8iVHpc4rF4BMPhq2XV> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9JSHgwSszcEKKOZ20swTie> ;
+                                                         rdfs:label "nrem_hr" .
+
+
+###  http://webprotege.stanford.edu/RBBkHYeqg4jDbCHz5AOZeWp
+<http://webprotege.stanford.edu/RBBkHYeqg4jDbCHz5AOZeWp> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ;
+                                                         rdfs:label "10c_leg_movements" .
+
+
+###  http://webprotege.stanford.edu/RBBqzaNJH3aooEsCt9RyDDu
+<http://webprotege.stanford.edu/RBBqzaNJH3aooEsCt9RyDDu> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "baso_perc" .
+
+
+###  http://webprotege.stanford.edu/RBErSW10414MG7CWvUdjXkJ
+<http://webprotege.stanford.edu/RBErSW10414MG7CWvUdjXkJ> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ;
+                                                         rdfs:label "16_no_enthusiasm" .
+
+
+###  http://webprotege.stanford.edu/RBGurOTbc9eipye8GjPTCss
+<http://webprotege.stanford.edu/RBGurOTbc9eipye8GjPTCss> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R831K27eOy2HeeAaQ1v28V9> ;
+                                                         rdfs:label "demographic_vo2_max_error" .
+
+
+###  http://webprotege.stanford.edu/RBH9heP5woXu9HeGqKm3abl
+<http://webprotege.stanford.edu/RBH9heP5woXu9HeGqKm3abl> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ;
+                                                         rdfs:label "alcohol" .
+
+
+###  http://webprotege.stanford.edu/RBKWlSXbZM7VY0rHYQopJK6
+<http://webprotege.stanford.edu/RBKWlSXbZM7VY0rHYQopJK6> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ;
+                                                         rdfs:label "7_tiredness_not_sleep" .
+
+
+###  http://webprotege.stanford.edu/RBLpOh9kbclYVh8EEpteCU6
+<http://webprotege.stanford.edu/RBLpOh9kbclYVh8EEpteCU6> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8JbaoTaWPBifThd4GlghA1> ;
+                                                         rdfs:label "minutes_in_light_sleep" .
+
+
+###  http://webprotege.stanford.edu/RBLwYnTwqgw0y575T2CSI8U
+<http://webprotege.stanford.edu/RBLwYnTwqgw0y575T2CSI8U> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8TjBkDwkAktgyLZjcaowXU> ;
+                                                         rdfs:label "minutes_in_default_zone_3" .
+
+
+###  http://webprotege.stanford.edu/RBS1zEIqdOKlbUECVyJ2Z6l
+<http://webprotege.stanford.edu/RBS1zEIqdOKlbUECVyJ2Z6l> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ;
+                                                         rdfs:label "10_no_prospects" .
+
+
+###  http://webprotege.stanford.edu/RBSPydhfaeCyKfL41uRXEc4
+<http://webprotege.stanford.edu/RBSPydhfaeCyKfL41uRXEc4> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ;
+                                                         rdfs:label "fermented_perc" .
+
+
+###  http://webprotege.stanford.edu/RBTFhTcQNaG8t0qcQVfgxPj
+<http://webprotege.stanford.edu/RBTFhTcQNaG8t0qcQVfgxPj> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9B5Fr5QPr0DJzVSrdq0QZ7> ,
+                                                                         <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                         rdfs:label "sedentary_minutes" .
+
+
+###  http://webprotege.stanford.edu/RBUSUVl8NYoKJ0exCeFkhj
+<http://webprotege.stanford.edu/RBUSUVl8NYoKJ0exCeFkhj> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                        rdfs:label "fat_burn_minimum_heart_rate" .
+
+
+###  http://webprotege.stanford.edu/RBV4CHlQt7X4dk5DGFSFKoZ
+<http://webprotege.stanford.edu/RBV4CHlQt7X4dk5DGFSFKoZ> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/Rw1SA04goDB9ti8NTXNdrk> ;
+                                                         rdfs:label "total_met" .
+
+
+###  http://webprotege.stanford.edu/RBWwn1KaNAHXuFWVpRBNHil
+<http://webprotege.stanford.edu/RBWwn1KaNAHXuFWVpRBNHil> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "insuline_uui_ml" .
+
+
+###  http://webprotege.stanford.edu/RBZI1mLkQUSiQoJre0dETEt
+<http://webprotege.stanford.edu/RBZI1mLkQUSiQoJre0dETEt> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9rDoBvAgf82PySbbrBthFU> ;
+                                                         rdfs:label "waveform_samples"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/RBaqogmMPVCTjNxvnFKd8no
+<http://webprotege.stanford.edu/RBaqogmMPVCTjNxvnFKd8no> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RD0Q8AMqlqIs4b3uZrlZdv> ;
+                                                         rdfs:label "eda_sessions" .
+
+
+###  http://webprotege.stanford.edu/RBg88rNxGbreVGBoh2hYWRr
+<http://webprotege.stanford.edu/RBg88rNxGbreVGBoh2hYWRr> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RDieEvTw5qkM2Et7gvmyITm> ;
+                                                         rdfs:label "visceral_fat_level" .
+
+
+###  http://webprotege.stanford.edu/RBgspDnZvZiG86ioLJzf54J
+<http://webprotege.stanford.edu/RBgspDnZvZiG86ioLJzf54J> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                         rdfs:label "out_of_range_calories" .
+
+
+###  http://webprotege.stanford.edu/RBgxNxpGAY3m7JCZqlLxd8Q
+<http://webprotege.stanford.edu/RBgxNxpGAY3m7JCZqlLxd8Q> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RVsuqBhJgSybSbCBXxEn0P> ;
+                                                         rdfs:label "baseline_relative_sample_sum_of_squares" .
+
+
+###  http://webprotege.stanford.edu/RBm7BRz93g3KVGgxU0Be7VI
+<http://webprotege.stanford.edu/RBm7BRz93g3KVGgxU0Be7VI> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ;
+                                                         rdfs:label "2_mouth_dryness" .
+
+
+###  http://webprotege.stanford.edu/RBmS9crQWIMzH7UY0pdDwxb
+<http://webprotege.stanford.edu/RBmS9crQWIMzH7UY0pdDwxb> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9JSHgwSszcEKKOZ20swTie> ;
+                                                         rdfs:label "entropy" .
+
+
+###  http://webprotege.stanford.edu/RBmzhhKsdgZAsCEXQzTO6G9
+<http://webprotege.stanford.edu/RBmzhhKsdgZAsCEXQzTO6G9> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RDGZzXzeSrhE9ng1lomr5BR> ;
+                                                         rdfs:label "additional_sleep_data" .
+
+
+###  http://webprotege.stanford.edu/RBnoVrys4QDfYoBEF9mcSCP
+<http://webprotege.stanford.edu/RBnoVrys4QDfYoBEF9mcSCP> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ;
+                                                         rdfs:label "11_agitation" .
+
+
+###  http://webprotege.stanford.edu/RBppur9Tk8EbKU8jk1YuBaR
+<http://webprotege.stanford.edu/RBppur9Tk8EbKU8jk1YuBaR> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ;
+                                                         rdfs:label "insomnia_score" .
+
+
+###  http://webprotege.stanford.edu/RBpx4hRE6DfCpI2e8eba7pZ
+<http://webprotege.stanford.edu/RBpx4hRE6DfCpI2e8eba7pZ> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCFiaaCmilos1IFF0BwHIxH> ;
+                                                         rdfs:label "sex" .
+
+
+###  http://webprotege.stanford.edu/RBrmvMgnw3t2BBAfW6bz1g4
+<http://webprotege.stanford.edu/RBrmvMgnw3t2BBAfW6bz1g4> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8JbaoTaWPBifThd4GlghA1> ,
+                                                                         <http://webprotege.stanford.edu/RHUdEl5FNMCJNu6XGMutJu> ;
+                                                         rdfs:label "start_time" .
+
+
+###  http://webprotege.stanford.edu/RBsEIze2BYr7zGd7dYsTJ0s
+<http://webprotege.stanford.edu/RBsEIze2BYr7zGd7dYsTJ0s> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> ;
+                                                         rdfs:label "ring_contraceptive" .
+
+
+###  http://webprotege.stanford.edu/RBsK6vNwh6FI9QudSRlNdux
+<http://webprotege.stanford.edu/RBsK6vNwh6FI9QudSRlNdux> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8JbaoTaWPBifThd4GlghA1> ;
+                                                         rdfs:label "main_sleep" .
+
+
+###  http://webprotege.stanford.edu/RBsQnibNzgoc2B6mqkjzYj0
+<http://webprotege.stanford.edu/RBsQnibNzgoc2B6mqkjzYj0> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCFiaaCmilos1IFF0BwHIxH> ;
+                                                         rdfs:label "group" .
+
+
+###  http://webprotege.stanford.edu/RBt6hrY5HTHzn9SetpgcdES
+<http://webprotege.stanford.edu/RBt6hrY5HTHzn9SetpgcdES> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCgHzOAjTTObhUSeMpBCU0O> ;
+                                                         rdfs:label "glucose_levels" .
+
+
+###  http://webprotege.stanford.edu/RBvPu7bdwY38YsqgukdH1Zt
+<http://webprotege.stanford.edu/RBvPu7bdwY38YsqgukdH1Zt> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RB7fMmkFi1ruGMtRMBqSZRx> ;
+                                                         rdfs:label "upper_bound_oxygen_saturation" .
+
+
+###  http://webprotege.stanford.edu/RBymINeSrOg0CJXHwnWrN8J
+<http://webprotege.stanford.edu/RBymINeSrOg0CJXHwnWrN8J> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> ;
+                                                         rdfs:label "menopause" .
+
+
+###  http://webprotege.stanford.edu/RC2lb0W49N8exUI2UMH4fGu
+<http://webprotege.stanford.edu/RC2lb0W49N8exUI2UMH4fGu> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8JbaoTaWPBifThd4GlghA1> ,
+                                                                         <http://webprotege.stanford.edu/RHUdEl5FNMCJNu6XGMutJu> ;
+                                                         rdfs:label "end_time" .
+
+
+###  http://webprotege.stanford.edu/RC3MNLOgNE9P0CFQcixSBvi
+<http://webprotege.stanford.edu/RC3MNLOgNE9P0CFQcixSBvi> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "hematocrit_perc" .
+
+
+###  http://webprotege.stanford.edu/RC3mNq0JHIbG020yKh3qza1
+<http://webprotege.stanford.edu/RC3mNq0JHIbG020yKh3qza1> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/Rc23xWBoPnGw8VrR9PpPMr> ;
+                                                         rdfs:label "full_sleep_signal_to_noise" .
+
+
+###  http://webprotege.stanford.edu/RC7BownptJLG0HplzKYPlXx
+<http://webprotege.stanford.edu/RC7BownptJLG0HplzKYPlXx> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "mchc_g_dl" .
+
+
+###  http://webprotege.stanford.edu/RCAOdVFgT2O3wpsCl2Qrm59
+<http://webprotege.stanford.edu/RCAOdVFgT2O3wpsCl2Qrm59> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8JbaoTaWPBifThd4GlghA1> ,
+                                                                         <http://webprotege.stanford.edu/RHUdEl5FNMCJNu6XGMutJu> ;
+                                                         rdfs:label "sleep_id" .
+
+
+###  http://webprotege.stanford.edu/RCCPopp9TAN2KSZEVkoNaBE
+<http://webprotege.stanford.edu/RCCPopp9TAN2KSZEVkoNaBE> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R831K27eOy2HeeAaQ1v28V9> ;
+                                                         rdfs:label "filtered_demographic_vo2_max" .
+
+
+###  http://webprotege.stanford.edu/RCCV7GyCXUIzNgzh36P1z6p
+<http://webprotege.stanford.edu/RCCV7GyCXUIzNgzh36P1z6p> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ,
+                                                                         <http://webprotege.stanford.edu/R7ffNwLPYewuDzPGXOZ2Yt5> ,
+                                                                         <http://webprotege.stanford.edu/R7pheo8U0PR2IYiLRLYcqFz> ,
+                                                                         <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ,
+                                                                         <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ,
+                                                                         <http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> ,
+                                                                         <http://webprotege.stanford.edu/R8KIU3v4FOlKOVtum5Pigdy> ,
+                                                                         <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ,
+                                                                         <http://webprotege.stanford.edu/RCFiaaCmilos1IFF0BwHIxH> ,
+                                                                         <http://webprotege.stanford.edu/RDieEvTw5qkM2Et7gvmyITm> ,
+                                                                         <http://webprotege.stanford.edu/Rw1SA04goDB9ti8NTXNdrk> ;
+                                                         rdfs:label "id" .
+
+
+###  http://webprotege.stanford.edu/RCCgG8KB4a0xXkZVscqsJKU
+<http://webprotege.stanford.edu/RCCgG8KB4a0xXkZVscqsJKU> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "igg_mg_dl" .
+
+
+###  http://webprotege.stanford.edu/RCFiaaCmilos1IFF0BwHIxH
+<http://webprotege.stanford.edu/RCFiaaCmilos1IFF0BwHIxH> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RoqEleHe4GZbutWLhwgC6y> ;
+                                                         rdfs:label "participant_information" .
+
+
+###  http://webprotege.stanford.edu/RCHiC9QhxcBNtlfIO3uaJuW
+<http://webprotege.stanford.edu/RCHiC9QhxcBNtlfIO3uaJuW> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> ;
+                                                         rdfs:label "antiinflamatory" .
+
+
+###  http://webprotege.stanford.edu/RCJlE2bI1ZmSz12JIbjdR8a
+<http://webprotege.stanford.edu/RCJlE2bI1ZmSz12JIbjdR8a> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ;
+                                                         rdfs:label "2_5_excessive_somnolence" .
+
+
+###  http://webprotege.stanford.edu/RCO2zl9EzXljqnba8iv9zhB
+<http://webprotege.stanford.edu/RCO2zl9EzXljqnba8iv9zhB> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RHUdEl5FNMCJNu6XGMutJu> ;
+                                                         rdfs:label "overall_score" .
+
+
+###  http://webprotege.stanford.edu/RCPGqIH6Z458iYSqGqEle0K
+<http://webprotege.stanford.edu/RCPGqIH6Z458iYSqGqEle0K> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8JbaoTaWPBifThd4GlghA1> ;
+                                                         rdfs:label "minutes_in_bed" .
+
+
+###  http://webprotege.stanford.edu/RCQBezEWgg0xRLjgStvDrrS
+<http://webprotege.stanford.edu/RCQBezEWgg0xRLjgStvDrrS> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ;
+                                                         rdfs:label "17_selfworth" .
+
+
+###  http://webprotege.stanford.edu/RCQXn8yIrpjWWvVhXCqcOOk
+<http://webprotege.stanford.edu/RCQXn8yIrpjWWvVhXCqcOOk> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ;
+                                                         rdfs:label "10b_snoring_suffocation" .
+
+
+###  http://webprotege.stanford.edu/RCaN2DbUSRr3RhMUBP1PHlE
+<http://webprotege.stanford.edu/RCaN2DbUSRr3RhMUBP1PHlE> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ;
+                                                         rdfs:label "2_3_restorative_sleep" .
+
+
+###  http://webprotege.stanford.edu/RCaX8Wf8lGR9nhOEbRWKIxX
+<http://webprotege.stanford.edu/RCaX8Wf8lGR9nhOEbRWKIxX> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCFiaaCmilos1IFF0BwHIxH> ;
+                                                         rdfs:label "usual_weight_kg" .
+
+
+###  http://webprotege.stanford.edu/RCc2ncn2VUyiekLZ6x7Eets
+<http://webprotege.stanford.edu/RCc2ncn2VUyiekLZ6x7Eets> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCFiaaCmilos1IFF0BwHIxH> ;
+                                                         rdfs:label "finished_intervention" .
+
+
+###  http://webprotege.stanford.edu/RCdN0XOaLEgUk0eRYNEBDl8
+<http://webprotege.stanford.edu/RCdN0XOaLEgUk0eRYNEBDl8> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ,
+                                                                         <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ;
+                                                         rdfs:label "total_score" .
+
+
+###  http://webprotege.stanford.edu/RCdYJoJaL8oPBhaELVfVdKe
+<http://webprotege.stanford.edu/RCdYJoJaL8oPBhaELVfVdKe> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RDieEvTw5qkM2Et7gvmyITm> ;
+                                                         rdfs:label "current_weight_kg" .
+
+
+###  http://webprotege.stanford.edu/RCdaJcOaNOLch89bDuYT4XY
+<http://webprotege.stanford.edu/RCdaJcOaNOLch89bDuYT4XY> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCFiaaCmilos1IFF0BwHIxH> ;
+                                                         rdfs:label "weight_5years_kg" .
+
+
+###  http://webprotege.stanford.edu/RCeaSHe77OEFQqB8EpoXj9Z
+<http://webprotege.stanford.edu/RCeaSHe77OEFQqB8EpoXj9Z> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ;
+                                                         rdfs:label "14_intolerance" .
+
+
+###  http://webprotege.stanford.edu/RCgHzOAjTTObhUSeMpBCU0O
+<http://webprotege.stanford.edu/RCgHzOAjTTObhUSeMpBCU0O> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RoqEleHe4GZbutWLhwgC6y> ;
+                                                         rdfs:label "DS3_Biomarkers"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/RCgWfqklGbRhnAZtjVTEMqB
+<http://webprotege.stanford.edu/RCgWfqklGbRhnAZtjVTEMqB> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R831K27eOy2HeeAaQ1v28V9> ;
+                                                         rdfs:label "filtered_demographic_vo2_max_error" .
+
+
+###  http://webprotege.stanford.edu/RCnW4Xau55AlYLuwwa8lDWR
+<http://webprotege.stanford.edu/RCnW4Xau55AlYLuwwa8lDWR> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7pheo8U0PR2IYiLRLYcqFz> ;
+                                                         rdfs:label "dyastolic_blood_pressure_mmhg"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/RCoseYI5y8n8i4ZgSDtmL60
+<http://webprotege.stanford.edu/RCoseYI5y8n8i4ZgSDtmL60> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ;
+                                                         rdfs:label "stress" .
+
+
+###  http://webprotege.stanford.edu/RCqXUYqDGfzvatKwX7X4ug
+<http://webprotege.stanford.edu/RCqXUYqDGfzvatKwX7X4ug> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                        rdfs:label "lympho_10e3_ul" .
+
+
+###  http://webprotege.stanford.edu/RCrBjn7Nh7v5RaNfifewqhj
+<http://webprotege.stanford.edu/RCrBjn7Nh7v5RaNfifewqhj> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8DTBly51OBBcDAcK7Onv8J> ;
+                                                         rdfs:label "stress_score"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/RCrseNrQNW8LTVh11Sz7fdZ
+<http://webprotege.stanford.edu/RCrseNrQNW8LTVh11Sz7fdZ> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ;
+                                                         rdfs:label "anxiety_score" .
+
+
+###  http://webprotege.stanford.edu/RCsEDMW02pd1LaMsvkJLARd
+<http://webprotege.stanford.edu/RCsEDMW02pd1LaMsvkJLARd> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8TjBkDwkAktgyLZjcaowXU> ,
+                                                                         <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                         rdfs:label "calories" .
+
+
+###  http://webprotege.stanford.edu/RCuGAQCBpys1YFscs6bSvgB
+<http://webprotege.stanford.edu/RCuGAQCBpys1YFscs6bSvgB> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8TjBkDwkAktgyLZjcaowXU> ,
+                                                                         <http://webprotege.stanford.edu/RHUdEl5FNMCJNu6XGMutJu> ;
+                                                         rdfs:label "resting_heart_rate" .
+
+
+###  http://webprotege.stanford.edu/RCvtsxekPLUzcq4CaHeKCvE
+<http://webprotege.stanford.edu/RCvtsxekPLUzcq4CaHeKCvE> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8TjBkDwkAktgyLZjcaowXU> ;
+                                                         rdfs:label "altitude" .
+
+
+###  http://webprotege.stanford.edu/RCwgOcM726BlvV48Sndt5hW
+<http://webprotege.stanford.edu/RCwgOcM726BlvV48Sndt5hW> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                         rdfs:label "peak_minimum_heart_rate" .
+
+
+###  http://webprotege.stanford.edu/RCwxfKSf4Xw3HrbDUtvrlPH
+<http://webprotege.stanford.edu/RCwxfKSf4Xw3HrbDUtvrlPH> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ;
+                                                         rdfs:label "21_meaningless" .
+
+
+###  http://webprotege.stanford.edu/RCzhucWtcr7zhOwHaya6NDx
+<http://webprotege.stanford.edu/RCzhucWtcr7zhOwHaya6NDx> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8TjBkDwkAktgyLZjcaowXU> ;
+                                                         rdfs:label "minutes_in_default_zone_1" .
+
+
+###  http://webprotege.stanford.edu/RD0Q8AMqlqIs4b3uZrlZdv
+<http://webprotege.stanford.edu/RD0Q8AMqlqIs4b3uZrlZdv> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RoqEleHe4GZbutWLhwgC6y> ;
+                                                        rdfs:label "DS7_EmotionalState"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/RD1kMjVFuo2smvFfxZVwrGN
+<http://webprotege.stanford.edu/RD1kMjVFuo2smvFfxZVwrGN> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8KIU3v4FOlKOVtum5Pigdy> ;
+                                                         rdfs:label "original_timestamp_validity" .
+
+
+###  http://webprotege.stanford.edu/RD24L6jjivdgjP1Y0jVHcFd
+<http://webprotege.stanford.edu/RD24L6jjivdgjP1Y0jVHcFd> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RDZEzB6ueO2RlOhfkDfSuU5> ;
+                                                         rdfs:label "temperature_difference" .
+
+
+###  http://webprotege.stanford.edu/RDATnX1hHgjvjd66odQibR6
+<http://webprotege.stanford.edu/RDATnX1hHgjvjd66odQibR6> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ,
+                                                                         <http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> ;
+                                                         rdfs:label "depression" .
+
+
+###  http://webprotege.stanford.edu/RDFbYzkaXcTkc7fERYDRHP4
+<http://webprotege.stanford.edu/RDFbYzkaXcTkc7fERYDRHP4> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> ;
+                                                         rdfs:label "antihypertensives" .
+
+
+###  http://webprotege.stanford.edu/RDGZzXzeSrhE9ng1lomr5BR
+<http://webprotege.stanford.edu/RDGZzXzeSrhE9ng1lomr5BR> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RoqEleHe4GZbutWLhwgC6y> ;
+                                                         rdfs:label "DS6_SleepActivity"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/RDHpumWumTIG4VjL7bNNb7v
+<http://webprotege.stanford.edu/RDHpumWumTIG4VjL7bNNb7v> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/Rw1SA04goDB9ti8NTXNdrk> ;
+                                                         rdfs:label "moderate_met" .
+
+
+###  http://webprotege.stanford.edu/RDKLDzR30JMYXqQ1a4k82lx
+<http://webprotege.stanford.edu/RDKLDzR30JMYXqQ1a4k82lx> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                         rdfs:label "fairly_active_minutes" .
+
+
+###  http://webprotege.stanford.edu/RDKpg427PU7KXFdP2rz65qi
+<http://webprotege.stanford.edu/RDKpg427PU7KXFdP2rz65qi> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ;
+                                                         rdfs:label "meals_weekend_home" .
+
+
+###  http://webprotege.stanford.edu/RDNB5O1zKlaEIaKmOB9ik98
+<http://webprotege.stanford.edu/RDNB5O1zKlaEIaKmOB9ik98> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/Rc23xWBoPnGw8VrR9PpPMr> ;
+                                                         rdfs:label "rem_sleep_signal_to_noise" .
+
+
+###  http://webprotege.stanford.edu/RDOMbg0dCe754apMGRQced8
+<http://webprotege.stanford.edu/RDOMbg0dCe754apMGRQced8> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/Rw1SA04goDB9ti8NTXNdrk> ;
+                                                         rdfs:label "categorical_score" .
+
+
+###  http://webprotege.stanford.edu/RDScKv7qut7gC3zAnqxvRBd
+<http://webprotege.stanford.edu/RDScKv7qut7gC3zAnqxvRBd> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "ige_ui_ml" .
+
+
+###  http://webprotege.stanford.edu/RDUdZz2SkkUnyl0h45NfQfH
+<http://webprotege.stanford.edu/RDUdZz2SkkUnyl0h45NfQfH> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8TjBkDwkAktgyLZjcaowXU> ;
+                                                         rdfs:label "minutes_in_default_zone_2" .
+
+
+###  http://webprotege.stanford.edu/RDWwMwCwfq4KC36tALWRRAh
+<http://webprotege.stanford.edu/RDWwMwCwfq4KC36tALWRRAh> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8TjBkDwkAktgyLZjcaowXU> ;
+                                                         rdfs:label "minutes_below_default_zone_1" .
+
+
+###  http://webprotege.stanford.edu/RDY9QXyGO5AkpHxuseFvlIw
+<http://webprotege.stanford.edu/RDY9QXyGO5AkpHxuseFvlIw> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "hgb_g_dl" .
+
+
+###  http://webprotege.stanford.edu/RDZEzB6ueO2RlOhfkDfSuU5
+<http://webprotege.stanford.edu/RDZEzB6ueO2RlOhfkDfSuU5> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9UPf32cFqD6RonhRmxVXh2> ;
+                                                         rdfs:label "A4F_10021_wrist_temperature" .
+
+
+###  http://webprotege.stanford.edu/RDdZOOgr2w4Ozyl0cNt292l
+<http://webprotege.stanford.edu/RDdZOOgr2w4Ozyl0cNt292l> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ;
+                                                         rdfs:label "4_difficulty_breathing" .
+
+
+###  http://webprotege.stanford.edu/RDfo8xXCxq0CZWEloWRFLah
+<http://webprotege.stanford.edu/RDfo8xXCxq0CZWEloWRFLah> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ;
+                                                         rdfs:label "anxiety" .
+
+
+###  http://webprotege.stanford.edu/RDieEvTw5qkM2Et7gvmyITm
+<http://webprotege.stanford.edu/RDieEvTw5qkM2Et7gvmyITm> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9tB0L1b0fL7L0PHt4Yz7Dj> ;
+                                                         rdfs:label "anthropometrics" .
+
+
+###  http://webprotege.stanford.edu/RDjogev2YBBwnHzWPvgY8xk
+<http://webprotege.stanford.edu/RDjogev2YBBwnHzWPvgY8xk> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                         rdfs:label "crp_mg_dl" .
+
+
+###  http://webprotege.stanford.edu/RDlYef5ynQ55sJqdfWXtnAN
+<http://webprotege.stanford.edu/RDlYef5ynQ55sJqdfWXtnAN> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RB7fMmkFi1ruGMtRMBqSZRx> ;
+                                                         rdfs:label "lower_bound_oxygen_saturation" .
+
+
+###  http://webprotege.stanford.edu/RDntNjsJqytY2XA6mBPtIDn
+<http://webprotege.stanford.edu/RDntNjsJqytY2XA6mBPtIDn> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ;
+                                                         rdfs:label "18_touchy" .
+
+
+###  http://webprotege.stanford.edu/RDoSWX4LFW9tgb34MN0T07U
+<http://webprotege.stanford.edu/RDoSWX4LFW9tgb34MN0T07U> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ;
+                                                         rdfs:label "insomnia" .
+
+
+###  http://webprotege.stanford.edu/RDq4Jtrtm0lAo2deJTQ8CDr
+<http://webprotege.stanford.edu/RDq4Jtrtm0lAo2deJTQ8CDr> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ;
+                                                         rdfs:label "appetite" .
+
+
+###  http://webprotege.stanford.edu/RDrDmGw9O5uJvRokh8PRr7D
+<http://webprotege.stanford.edu/RDrDmGw9O5uJvRokh8PRr7D> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9B5Fr5QPr0DJzVSrdq0QZ7> ,
+                                                                         <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                         rdfs:label "very_active_minutes" .
+
+
+###  http://webprotege.stanford.edu/RDv17pV7zFI7sQL8v5DHWxB
+<http://webprotege.stanford.edu/RDv17pV7zFI7sQL8v5DHWxB> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8DTBly51OBBcDAcK7Onv8J> ;
+                                                         rdfs:label "sleep_points" .
+
+
+###  http://webprotege.stanford.edu/RDv3EvB5abtEhf38EWastbM
+<http://webprotege.stanford.edu/RDv3EvB5abtEhf38EWastbM> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RDieEvTw5qkM2Et7gvmyITm> ;
+                                                         rdfs:label "bmi_kg_m2" .
+
+
+###  http://webprotege.stanford.edu/RDxM2La7wRFQsjrG5c0Bq79
+<http://webprotege.stanford.edu/RDxM2La7wRFQsjrG5c0Bq79> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/Rw1SA04goDB9ti8NTXNdrk> ;
+                                                         rdfs:label "moderate_min_day" .
+
+
+###  http://webprotege.stanford.edu/RDxVUw1xN5NWcFE2FqkXlkV
+<http://webprotege.stanford.edu/RDxVUw1xN5NWcFE2FqkXlkV> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                         rdfs:label "fat_burn_calories" .
+
+
+###  http://webprotege.stanford.edu/RE3jr6EUEf30lSOfbvgtHx
+<http://webprotege.stanford.edu/RE3jr6EUEf30lSOfbvgtHx> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ;
+                                                        rdfs:label "9_somnolence_effects" .
+
+
+###  http://webprotege.stanford.edu/REdDm7c53KTPKq8ifwdJkD
+<http://webprotege.stanford.edu/REdDm7c53KTPKq8ifwdJkD> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RDGZzXzeSrhE9ng1lomr5BR> ;
+                                                        rdfs:label "sleep_quality" .
+
+
+###  http://webprotege.stanford.edu/REtTmBFLWsqqTrGBzpVlNr
+<http://webprotege.stanford.edu/REtTmBFLWsqqTrGBzpVlNr> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/Rw1SA04goDB9ti8NTXNdrk> ;
+                                                        rdfs:label "vigorous_min_day" .
+
+
+###  http://webprotege.stanford.edu/RGEgznAe2WeadUzWJotdFE
+<http://webprotege.stanford.edu/RGEgznAe2WeadUzWJotdFE> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ;
+                                                        rdfs:label "exercise" .
+
+
+###  http://webprotege.stanford.edu/RHUdEl5FNMCJNu6XGMutJu
+<http://webprotege.stanford.edu/RHUdEl5FNMCJNu6XGMutJu> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/REdDm7c53KTPKq8ifwdJkD> ;
+                                                        rdfs:label "A4F_10021_sleep_quality" .
+
+
+###  http://webprotege.stanford.edu/RISZlRG25HfqEJdwHrf1IK
+<http://webprotege.stanford.edu/RISZlRG25HfqEJdwHrf1IK> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                        rdfs:label "erythrocytes_10e6_ul" .
+
+
+###  http://webprotege.stanford.edu/RISrMruxnZ2NQCaRBzqXQU
+<http://webprotege.stanford.edu/RISrMruxnZ2NQCaRBzqXQU> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R4cHOlgY1EGIY2PfqQcHaV> ;
+                                                        rdfs:label "electrocardiogram"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/RKdaVzPwqozopQsxTtsicN
+<http://webprotege.stanford.edu/RKdaVzPwqozopQsxTtsicN> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R7ffNwLPYewuDzPGXOZ2Yt5> ;
+                                                        rdfs:label "category" .
+
+
+###  http://webprotege.stanford.edu/RKj2I6csBUsuFczUyeLSOJ
+<http://webprotege.stanford.edu/RKj2I6csBUsuFczUyeLSOJ> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/Rc23xWBoPnGw8VrR9PpPMr> ;
+                                                        rdfs:label "rem_sleep_breathing_rate" .
+
+
+###  http://webprotege.stanford.edu/RKsIZOUoXHRD4mrafLRyhg
+<http://webprotege.stanford.edu/RKsIZOUoXHRD4mrafLRyhg> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                        rdfs:label "iga_mg_dl" .
+
+
+###  http://webprotege.stanford.edu/RN9vTYve2HxJtbH22HPbqX
+<http://webprotege.stanford.edu/RN9vTYve2HxJtbH22HPbqX> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                        rdfs:label "cardio_minimum_heart_rate" .
+
+
+###  http://webprotege.stanford.edu/RNuUXpKdqTrEYEWB8troef
+<http://webprotege.stanford.edu/RNuUXpKdqTrEYEWB8troef> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/Rw1SA04goDB9ti8NTXNdrk> ;
+                                                        rdfs:label "vigorous_met" .
+
+
+###  http://webprotege.stanford.edu/ROGauX4LJInxn8nE9N8hVQ
+<http://webprotege.stanford.edu/ROGauX4LJInxn8nE9N8hVQ> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R99ro7ATmcMrNxhIPpFKuiB> ;
+                                                        rdfs:label "oxygen_saturation_by_minute"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/RRX8MITiXTAJf3NOWWk5bo
+<http://webprotege.stanford.edu/RRX8MITiXTAJf3NOWWk5bo> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                        rdfs:label "activity_name" .
+
+
+###  http://webprotege.stanford.edu/RRkxw8l7PztAU5i4nbjMUx
+<http://webprotege.stanford.edu/RRkxw8l7PztAU5i4nbjMUx> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R9B5Fr5QPr0DJzVSrdq0QZ7> ,
+                                                                        <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                        rdfs:label "fat_burn_minutes" .
+
+
+###  http://webprotege.stanford.edu/RRrkhlSINkGcrFtjU811rz
+<http://webprotege.stanford.edu/RRrkhlSINkGcrFtjU811rz> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RVsuqBhJgSybSbCBXxEn0P> ;
+                                                        rdfs:label "baseline_relative_nightly_standard_deviation" .
+
+
+###  http://webprotege.stanford.edu/RS2mWxmZzh3oJnkocxngpR
+<http://webprotege.stanford.edu/RS2mWxmZzh3oJnkocxngpR> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                        rdfs:label "alb_g_dl" .
+
+
+###  http://webprotege.stanford.edu/RSzBhrPyNKBfVMJ5lHIRJG
+<http://webprotege.stanford.edu/RSzBhrPyNKBfVMJ5lHIRJG> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RVsuqBhJgSybSbCBXxEn0P> ;
+                                                        rdfs:label "baseline_relative_sample_standard_deviation" .
+
+
+###  http://webprotege.stanford.edu/RTRmC1G7M6t4ZpsBRKBUm0
+<http://webprotege.stanford.edu/RTRmC1G7M6t4ZpsBRKBUm0> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ;
+                                                        rdfs:label "15_close_to_panic" .
+
+
+###  http://webprotege.stanford.edu/RU6xyrlhqFeWebzdkM8RxK
+<http://webprotege.stanford.edu/RU6xyrlhqFeWebzdkM8RxK> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> ;
+                                                        rdfs:label "antiacids" .
+
+
+###  http://webprotege.stanford.edu/RUhJ6KZbhgjJvNZEldkQbT
+<http://webprotege.stanford.edu/RUhJ6KZbhgjJvNZEldkQbT> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RVsuqBhJgSybSbCBXxEn0P> ;
+                                                        rdfs:label "end_sleep" .
+
+
+###  http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY
+<http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R93udrZcmQfY5ZAzGBRU3tH> ;
+                                                        rdfs:label "A4F_10660_physical_activity_reports" .
+
+
+###  http://webprotege.stanford.edu/RVsuqBhJgSybSbCBXxEn0P
+<http://webprotege.stanford.edu/RVsuqBhJgSybSbCBXxEn0P> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R9UPf32cFqD6RonhRmxVXh2> ;
+                                                        rdfs:label "A4F_10021_computed_temperature" .
+
+
+###  http://webprotege.stanford.edu/RYMHWiR4wGKWcOpgPGfkyn
+<http://webprotege.stanford.edu/RYMHWiR4wGKWcOpgPGfkyn> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R8QBTOZP6fn4PRm81XnVOUx> ;
+                                                        rdfs:label "estimated_VO2" .
+
+
+###  http://webprotege.stanford.edu/RYNtAiPR0NQqPx4fuhu3ld
+<http://webprotege.stanford.edu/RYNtAiPR0NQqPx4fuhu3ld> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> ;
+                                                        rdfs:label "iron" .
+
+
+###  http://webprotege.stanford.edu/RYhqJedL7nCgBb0gCEuntr
+<http://webprotege.stanford.edu/RYhqJedL7nCgBb0gCEuntr> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/Rw1SA04goDB9ti8NTXNdrk> ;
+                                                        rdfs:label "walking_met" .
+
+
+###  http://webprotege.stanford.edu/RYr00DnMzYStmBuNKqm4j1
+<http://webprotege.stanford.edu/RYr00DnMzYStmBuNKqm4j1> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RDieEvTw5qkM2Et7gvmyITm> ;
+                                                        rdfs:label "basal_metabolism" .
+
+
+###  http://webprotege.stanford.edu/RaYAm7KVW5JXtt3CUbcrhH
+<http://webprotege.stanford.edu/RaYAm7KVW5JXtt3CUbcrhH> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RCFiaaCmilos1IFF0BwHIxH> ;
+                                                        rdfs:label "height_cm" .
+
+
+###  http://webprotege.stanford.edu/Rb0hgNgabZRIa2fSbbbCrG
+<http://webprotege.stanford.edu/Rb0hgNgabZRIa2fSbbbCrG> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> ;
+                                                        rdfs:label "antidepressants" .
+
+
+###  http://webprotege.stanford.edu/RbYLTs3154rrJZBlAkocm1
+<http://webprotege.stanford.edu/RbYLTs3154rrJZBlAkocm1> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ;
+                                                        rdfs:label "3_fall_asleep" .
+
+
+###  http://webprotege.stanford.edu/RbwJnktbXUhqzCOkRRskss
+<http://webprotege.stanford.edu/RbwJnktbXUhqzCOkRRskss> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R8L2a1RBhuYURPbSNV9UOyI> ;
+                                                        rdfs:label "skin_conductance_levels" .
+
+
+###  http://webprotege.stanford.edu/Rc23xWBoPnGw8VrR9PpPMr
+<http://webprotege.stanford.edu/Rc23xWBoPnGw8VrR9PpPMr> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R9AdvtXaIuJb0nXXES8Mqe8> ;
+                                                        rdfs:label "A4F_10021_respiratory_rate" .
+
+
+###  http://webprotege.stanford.edu/RcmKs2KpMcTEqd5fPMh2gp
+<http://webprotege.stanford.edu/RcmKs2KpMcTEqd5fPMh2gp> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ;
+                                                        rdfs:label "10d_nightmares" .
+
+
+###  http://webprotege.stanford.edu/RdYyrA5ewbfdU1LSipFfac
+<http://webprotege.stanford.edu/RdYyrA5ewbfdU1LSipFfac> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ;
+                                                        rdfs:label "10a_snoring" .
+
+
+###  http://webprotege.stanford.edu/Re32enKcI4QyCXODV4wDof
+<http://webprotege.stanford.edu/Re32enKcI4QyCXODV4wDof> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R9JSHgwSszcEKKOZ20swTie> ;
+                                                        rdfs:label "rmssd" .
+
+
+###  http://webprotege.stanford.edu/ReGVzMfgN01yPOkYF45U9Q
+<http://webprotege.stanford.edu/ReGVzMfgN01yPOkYF45U9Q> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R9B5Fr5QPr0DJzVSrdq0QZ7> ,
+                                                                        <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                        rdfs:label "lightly_active_minutes" .
+
+
+###  http://webprotege.stanford.edu/Recx6gQMtQNg6UvYz7auMI
+<http://webprotege.stanford.edu/Recx6gQMtQNg6UvYz7auMI> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                        rdfs:label "seg_10e3_ul" .
+
+
+###  http://webprotege.stanford.edu/RhP2fQcNtyjd1DLqNc87Nd
+<http://webprotege.stanford.edu/RhP2fQcNtyjd1DLqNc87Nd> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ;
+                                                        rdfs:label "no_psychological" .
+
+
+###  http://webprotege.stanford.edu/Rj9xRuTtK2psMR7wTVy62O
+<http://webprotege.stanford.edu/Rj9xRuTtK2psMR7wTVy62O> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/Rc23xWBoPnGw8VrR9PpPMr> ;
+                                                        rdfs:label "deep_sleep_breathing_rate" .
+
+
+###  http://webprotege.stanford.edu/Rk99ggQGw7DtbQWMPX6Gjy
+<http://webprotege.stanford.edu/Rk99ggQGw7DtbQWMPX6Gjy> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                        rdfs:label "out_of_range_maximum_heart_rate" .
+
+
+###  http://webprotege.stanford.edu/Rl9E8YxmRSlp0Wo1QwuQ9e
+<http://webprotege.stanford.edu/Rl9E8YxmRSlp0Wo1QwuQ9e> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/Rw1SA04goDB9ti8NTXNdrk> ;
+                                                        rdfs:label "moderate_n_days" .
+
+
+###  http://webprotege.stanford.edu/RlecqcA2HqahUrXlGaAvw2
+<http://webprotege.stanford.edu/RlecqcA2HqahUrXlGaAvw2> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                        rdfs:label "eos_10e3_ul" .
+
+
+###  http://webprotege.stanford.edu/Rm2pXqxArRsfqAx069FXcT
+<http://webprotege.stanford.edu/Rm2pXqxArRsfqAx069FXcT> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                        rdfs:label "adiponectin_ug_ml" .
+
+
+###  http://webprotege.stanford.edu/RmJb6N9u2a7m7JqnAI1zR2
+<http://webprotege.stanford.edu/RmJb6N9u2a7m7JqnAI1zR2> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                        rdfs:label "mcv_fl" .
+
+
+###  http://webprotege.stanford.edu/RnHx0pgq3bxX7hur6RHp72
+<http://webprotege.stanford.edu/RnHx0pgq3bxX7hur6RHp72> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/Rc23xWBoPnGw8VrR9PpPMr> ;
+                                                        rdfs:label "light_sleep_standard_deviation" .
+
+
+###  http://webprotege.stanford.edu/RnXNtLanNRej8rOBsxexJL
+<http://webprotege.stanford.edu/RnXNtLanNRej8rOBsxexJL> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ;
+                                                        rdfs:label "3_no_positive_feelings" .
+
+
+###  http://webprotege.stanford.edu/RndtLdNInSgWFtt2HiwmYX
+<http://webprotege.stanford.edu/RndtLdNInSgWFtt2HiwmYX> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> ;
+                                                        rdfs:label "no_medication" .
+
+
+###  http://webprotege.stanford.edu/Ro2sLpwAtb13WuBwsJ0sP7
+<http://webprotege.stanford.edu/Ro2sLpwAtb13WuBwsJ0sP7> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> ;
+                                                        rdfs:label "antihistamines" .
+
+
+###  http://webprotege.stanford.edu/RoAoqG0FsaBQ1CWqIrMK2V
+<http://webprotege.stanford.edu/RoAoqG0FsaBQ1CWqIrMK2V> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                        rdfs:label "mch_pg" .
+
+
+###  http://webprotege.stanford.edu/RoqEleHe4GZbutWLhwgC6y
+<http://webprotege.stanford.edu/RoqEleHe4GZbutWLhwgC6y> rdf:type owl:Class ;
+                                                        rdfs:label "Patient" .
+
+
+###  http://webprotege.stanford.edu/RqCdDjKg2LK9J2g0A2AIri
+<http://webprotege.stanford.edu/RqCdDjKg2LK9J2g0A2AIri> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/Rw1SA04goDB9ti8NTXNdrk> ;
+                                                        rdfs:label "walking_n_days" .
+
+
+###  http://webprotege.stanford.edu/RqPFUiQBj4kPUtzOZCR8as
+<http://webprotege.stanford.edu/RqPFUiQBj4kPUtzOZCR8as> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R7zyGtXpBFKDx1F4xYJoA4> ;
+                                                        rdfs:label "6c_sleep_efficiency" .
+
+
+###  http://webprotege.stanford.edu/RqTGFjAxesWF0kxQ2y09E9
+<http://webprotege.stanford.edu/RqTGFjAxesWF0kxQ2y09E9> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ;
+                                                        rdfs:label "1_wind_down" .
+
+
+###  http://webprotege.stanford.edu/RrDVMEUuaCdMM3KReY1UG9
+<http://webprotege.stanford.edu/RrDVMEUuaCdMM3KReY1UG9> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RCFiaaCmilos1IFF0BwHIxH> ;
+                                                        rdfs:label "age" .
+
+
+###  http://webprotege.stanford.edu/Rt4opilXJW2wko1MRdxAyY
+<http://webprotege.stanford.edu/Rt4opilXJW2wko1MRdxAyY> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> ;
+                                                        rdfs:label "triglyceridemia" .
+
+
+###  http://webprotege.stanford.edu/Rt7luYueBiJOWu2pNJ61cm
+<http://webprotege.stanford.edu/Rt7luYueBiJOWu2pNJ61cm> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R70mT9cnxZJ6N5vLC8hgP0K> ;
+                                                        rdfs:label "chol_mg_dl" .
+
+
+###  http://webprotege.stanford.edu/RtS4QdrAJVpnsGA7bODvS9
+<http://webprotege.stanford.edu/RtS4QdrAJVpnsGA7bODvS9> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/Rc23xWBoPnGw8VrR9PpPMr> ;
+                                                        rdfs:label "full_sleep_standard_deviation" .
+
+
+###  http://webprotege.stanford.edu/RtoLyJlYOs87jQttmbBCBx
+<http://webprotege.stanford.edu/RtoLyJlYOs87jQttmbBCBx> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ;
+                                                        rdfs:label "cigars_day" .
+
+
+###  http://webprotege.stanford.edu/Ru3KkPFYtL3ZGVujsUu4Zt
+<http://webprotege.stanford.edu/Ru3KkPFYtL3ZGVujsUu4Zt> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ;
+                                                        rdfs:label "7_trembling" .
+
+
+###  http://webprotege.stanford.edu/RukB2KxVfc8v7QwN2m7ena
+<http://webprotege.stanford.edu/RukB2KxVfc8v7QwN2m7ena> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R7ffNwLPYewuDzPGXOZ2Yt5> ;
+                                                        rdfs:label "id_labeler" .
+
+
+###  http://webprotege.stanford.edu/RvRI9CfXeAuDjOfbHV1pQ0
+<http://webprotege.stanford.edu/RvRI9CfXeAuDjOfbHV1pQ0> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ;
+                                                        rdfs:label "9_panic" .
+
+
+###  http://webprotege.stanford.edu/RvSWItnRI3ozJgMLXejvOZ
+<http://webprotege.stanford.edu/RvSWItnRI3ozJgMLXejvOZ> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RVnZe1GlcPcdmNJmvK6AQY> ;
+                                                        rdfs:label "out_of_range_minutes" .
+
+
+###  http://webprotege.stanford.edu/RvaVI4RcrXVDxigVbhhXWF
+<http://webprotege.stanford.edu/RvaVI4RcrXVDxigVbhhXWF> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R85rVz8yXdYnD7SyzpY08Nr> ;
+                                                        rdfs:label "calcium" .
+
+
+###  http://webprotege.stanford.edu/Rw1SA04goDB9ti8NTXNdrk
+<http://webprotege.stanford.edu/Rw1SA04goDB9ti8NTXNdrk> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R8QBTOZP6fn4PRm81XnVOUx> ;
+                                                        rdfs:label "IPAQ" .
+
+
+###  http://webprotege.stanford.edu/RwJ5g1trIrj160wMBDKYUl
+<http://webprotege.stanford.edu/RwJ5g1trIrj160wMBDKYUl> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RoqEleHe4GZbutWLhwgC6y> ;
+                                                        rdfs:label "DS2_LifestyleHealth"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/RwPiwsBdUWDJLeYVzUW6VQ
+<http://webprotege.stanford.edu/RwPiwsBdUWDJLeYVzUW6VQ> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R8yY13sgjpr9DNocSgHrj3z> ;
+                                                        rdfs:label "5_no_initiative" .
+
+
+###  http://webprotege.stanford.edu/Ry1dbYQaOUZtcrZDOUt2xL
+<http://webprotege.stanford.edu/Ry1dbYQaOUZtcrZDOUt2xL> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R7vth3kdtNlGcwmTq0AhED5> ;
+                                                        rdfs:label "meals_weekdays_out" .
+
+
+###  http://webprotege.stanford.edu/RyLOiGELm8mBDSZlpAWSSu
+<http://webprotege.stanford.edu/RyLOiGELm8mBDSZlpAWSSu> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/Rc23xWBoPnGw8VrR9PpPMr> ;
+                                                        rdfs:label "deep_sleep_standard_deviation" .
+
+
+###  Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi

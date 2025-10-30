@@ -1,0 +1,166 @@
+id,id_labeler,category,subcategory,cooking_style
+A4F_10021_0000.jpg,1,Cereals and Legumes,Bread,Fried
+A4F_10021_0000.jpg,4,Cereals and Legumes,Bread,Fried
+A4F_10021_0000.jpg,6,Cereals and Legumes,Bread,Fried
+A4F_10021_0001.jpg,1,Sweets and Pastries,Chocolates and Pralines,None
+A4F_10021_0001.jpg,1,Snacks and Appetizers,Uncategorized,None
+A4F_10021_0001.jpg,4,Sweets and Pastries,Chocolates and Pralines,None
+A4F_10021_0001.jpg,6,Sweets and Pastries,Pastries and Baked Goods,None
+A4F_10021_0002.jpg,1,Beverages,Juices,None
+A4F_10021_0002.jpg,1,Cereals and Legumes,Bread,None
+A4F_10021_0002.jpg,1,Protein Sources,Seafood,Fried
+A4F_10021_0002.jpg,1,Oils and Fats,Fats (Butter and Others),None
+A4F_10021_0002.jpg,1,Vegetables and Fruits,Potatoes,Boiled or Steamed
+A4F_10021_0002.jpg,1,Vegetables and Fruits,Vegetables and Greens,Boiled or Steamed
+A4F_10021_0002.jpg,1,Beverages,Soft Drinks,None
+A4F_10021_0002.jpg,4,Vegetables and Fruits,Vegetables and Greens,Boiled or Steamed
+A4F_10021_0002.jpg,4,Vegetables and Fruits,Potatoes,Boiled or Steamed
+A4F_10021_0002.jpg,4,Protein Sources,Seafood,Grilled
+A4F_10021_0002.jpg,4,Cereals and Legumes,Bread,None
+A4F_10021_0002.jpg,4,Beverages,Soft Drinks,None
+A4F_10021_0002.jpg,6,Beverages,Soft Drinks,None
+A4F_10021_0002.jpg,6,Others,Jelly,None
+A4F_10021_0002.jpg,6,Vegetables and Fruits,Vegetables and Greens,Boiled or Steamed
+A4F_10021_0002.jpg,6,Cereals and Legumes,Bread,None
+A4F_10021_0002.jpg,6,Protein Sources,Seafood,Fried
+A4F_10021_0003.jpg,1,Dairy and Plant-Based Drinks,Yogurt and Fresh Cheese,None
+A4F_10021_0003.jpg,1,Protein Sources,Eggs,Grilled
+A4F_10021_0003.jpg,1,Cereals and Legumes,Sliced Bread,Oven-Baked
+A4F_10021_0003.jpg,1,Vegetables and Fruits,Vegetables and Greens,None
+A4F_10021_0003.jpg,4,Cereals and Legumes,Sliced Bread,Oven-Baked
+A4F_10021_0003.jpg,4,Protein Sources,Eggs,Grilled
+A4F_10021_0003.jpg,4,Vegetables and Fruits,Vegetables and Greens,Fresh
+A4F_10021_0003.jpg,4,Dairy and Plant-Based Drinks,Processed Dairy,None
+A4F_10021_0003.jpg,6,Dairy and Plant-Based Drinks,Processed Dairy,Fermented
+A4F_10021_0003.jpg,6,Protein Sources,Eggs,Grilled
+A4F_10021_0003.jpg,6,Cereals and Legumes,Bread,Oven-Baked
+A4F_10021_0003.jpg,6,Vegetables and Fruits,Vegetables and Greens,Fresh
+A4F_10021_0004.jpg,1,Beverages,Infusions (Coffee and Others),None
+A4F_10021_0004.jpg,1,Dairy and Plant-Based Drinks,Milk and Plant-Based Drinks,None
+A4F_10021_0004.jpg,1,Cereals and Legumes,Sliced Bread,Oven-Baked
+A4F_10021_0004.jpg,1,Oils and Fats,Olive Oil,None
+A4F_10021_0004.jpg,4,Cereals and Legumes,Sliced Bread,Oven-Baked
+A4F_10021_0004.jpg,4,Oils and Fats,Olive Oil,None
+A4F_10021_0004.jpg,4,Dairy and Plant-Based Drinks,Milk and Plant-Based Drinks,None
+A4F_10021_0004.jpg,4,Beverages,Infusions (Coffee and Others),None
+A4F_10021_0004.jpg,6,Cereals and Legumes,Bread,Oven-Baked
+A4F_10021_0004.jpg,6,Oils and Fats,Olive Oil,None
+A4F_10021_0004.jpg,6,Beverages,Infusions (Coffee and Others),None
+A4F_10021_0005.jpg,1,Traditional Mediterranean Dishes,Gazpacho/Salmorejo,None
+A4F_10021_0005.jpg,4,Traditional Mediterranean Dishes,Gazpacho/Salmorejo,None
+A4F_10021_0005.jpg,6,Traditional Mediterranean Dishes,Gazpacho/Salmorejo,None
+A4F_10021_0006.jpg,1,Protein Sources,Other Meats,Grilled
+A4F_10021_0006.jpg,1,Oils and Fats,Sauces and Condiments,None
+A4F_10021_0006.jpg,4,Protein Sources,Fish,Grilled
+A4F_10021_0006.jpg,4,Oils and Fats,Sauces and Condiments,None
+A4F_10021_0006.jpg,6,Protein Sources,Fish,Grilled
+A4F_10021_0006.jpg,6,Oils and Fats,Sauces and Condiments,None
+A4F_10021_0007.jpg,1,Fast Food,Burgers,None
+A4F_10021_0007.jpg,1,Vegetables and Fruits,Potatoes,Fried
+A4F_10021_0007.jpg,1,Beverages,Soft Drinks,None
+A4F_10021_0007.jpg,1,Oils and Fats,Sauces and Condiments,None
+A4F_10021_0007.jpg,4,Fast Food,Burgers,None
+A4F_10021_0007.jpg,4,Vegetables and Fruits,Potatoes,Fried
+A4F_10021_0007.jpg,4,Beverages,Soft Drinks,None
+A4F_10021_0007.jpg,6,Fast Food,Burgers,None
+A4F_10021_0007.jpg,6,Vegetables and Fruits,Potatoes,Fried
+A4F_10021_0007.jpg,6,Beverages,Soft Drinks,None
+A4F_10021_0008.jpg,1,Cereals and Legumes,Rice,Boiled or Steamed
+A4F_10021_0008.jpg,1,Oils and Fats,Avocado/Fatty Fruits,None
+A4F_10021_0008.jpg,1,Protein Sources,Other Meats,Fried
+A4F_10021_0008.jpg,1,Protein Sources,Fish,Fresh
+A4F_10021_0008.jpg,1,Snacks and Appetizers,Raw or Roasted Seeds,None
+A4F_10021_0008.jpg,1,Oils and Fats,Sauces and Condiments,None
+A4F_10021_0008.jpg,4,Cereals and Legumes,Rice,Boiled or Steamed
+A4F_10021_0008.jpg,4,Protein Sources,Fish,Fresh
+A4F_10021_0008.jpg,4,Snacks and Appetizers,Raw or Roasted Seeds,None
+A4F_10021_0008.jpg,4,Oils and Fats,Avocado/Fatty Fruits,Fresh
+A4F_10021_0008.jpg,4,Vegetables and Fruits,Vegetables and Greens,Fresh
+A4F_10021_0008.jpg,6,Protein Sources,Processed Fish,Fresh
+A4F_10021_0009.jpg,1,Dairy and Plant-Based Drinks,Yogurt and Fresh Cheese,None
+A4F_10021_0009.jpg,4,Dairy and Plant-Based Drinks,Yogurt and Fresh Cheese,None
+A4F_10021_0009.jpg,6,Dairy and Plant-Based Drinks,Yogurt and Fresh Cheese,Fermented
+A4F_10021_0010.jpg,1,Vegetables and Fruits,Vegetables and Greens,Preserved (Canned or Jarred)
+A4F_10021_0010.jpg,1,Protein Sources,Fish,Preserved (Canned or Jarred)
+A4F_10021_0010.jpg,1,Protein Sources,Eggs,Boiled or Steamed
+A4F_10021_0010.jpg,4,Protein Sources,Fish,Preserved (Canned or Jarred)
+A4F_10021_0010.jpg,4,Protein Sources,Eggs,Boiled or Steamed
+A4F_10021_0010.jpg,4,Vegetables and Fruits,Vegetables and Greens,Preserved (Canned or Jarred)
+A4F_10021_0010.jpg,6,Protein Sources,Eggs,Boiled or Steamed
+A4F_10021_0010.jpg,6,Protein Sources,Fish,Preserved (Canned or Jarred)
+A4F_10021_0010.jpg,6,Vegetables and Fruits,Vegetables and Greens,Preserved (Canned or Jarred)
+A4F_10021_0011.jpg,1,Snacks and Appetizers,Raw or Roasted Seeds,None
+A4F_10021_0011.jpg,1,Oils and Fats,Olive Oil,None
+A4F_10021_0011.jpg,1,Vegetables and Fruits,Vegetables and Greens,Fresh
+A4F_10021_0011.jpg,1,Vegetables and Fruits,Fruits,Fresh
+A4F_10021_0011.jpg,4,Vegetables and Fruits,Fruits,Fresh
+A4F_10021_0011.jpg,4,Vegetables and Fruits,Vegetables and Greens,Fresh
+A4F_10021_0011.jpg,6,Vegetables and Fruits,Vegetables and Greens,Fresh
+A4F_10021_0011.jpg,6,Vegetables and Fruits,Fruits,Fresh
+A4F_10021_0012.jpg,1,Fast Food,Battered and Fried Foods,Fried
+A4F_10021_0012.jpg,4,Fast Food,Battered and Fried Foods,Fresh
+A4F_10021_0012.jpg,6,Protein Sources,Poultry,Fried
+A4F_10021_0013.jpg,1,Cereals and Legumes,Whole Grains,None
+A4F_10021_0013.jpg,1,Dairy and Plant-Based Drinks,Yogurt and Fresh Cheese,None
+A4F_10021_0013.jpg,1,Dairy and Plant-Based Drinks,Milk and Plant-Based Drinks,None
+A4F_10021_0013.jpg,1,Beverages,Infusions (Coffee and Others),None
+A4F_10021_0013.jpg,4,Cereals and Legumes,Whole Grains,None
+A4F_10021_0013.jpg,4,Dairy and Plant-Based Drinks,Milk and Plant-Based Drinks,None
+A4F_10021_0013.jpg,4,Beverages,Infusions (Coffee and Others),None
+A4F_10021_0013.jpg,6,Beverages,Infusions (Coffee and Others),None
+A4F_10021_0013.jpg,6,Cereals and Legumes,Breakfast Cereals,None
+A4F_10021_0013.jpg,6,Dairy and Plant-Based Drinks,Processed Dairy,Fermented
+A4F_10021_0014.jpg,1,Cereals and Legumes,Bread,None
+A4F_10021_0014.jpg,1,Beverages,Soft Drinks,None
+A4F_10021_0014.jpg,1,Protein Sources,Eggs,Boiled or Steamed
+A4F_10021_0014.jpg,1,Cereals and Legumes,Pasta,Boiled or Steamed
+A4F_10021_0014.jpg,1,Dairy and Plant-Based Drinks,Cheeses,None
+A4F_10021_0014.jpg,1,Oils and Fats,Sauces and Condiments,None
+A4F_10021_0014.jpg,4,Cereals and Legumes,Pasta,Boiled or Steamed
+A4F_10021_0014.jpg,4,Dairy and Plant-Based Drinks,Cheeses,None
+A4F_10021_0014.jpg,4,Cereals and Legumes,Bread,Oven-Baked
+A4F_10021_0014.jpg,4,Oils and Fats,Sauces and Condiments,None
+A4F_10021_0014.jpg,4,Beverages,Soft Drinks,None
+A4F_10021_0014.jpg,6,Beverages,Soft Drinks,None
+A4F_10021_0014.jpg,6,Cereals and Legumes,Pasta,Boiled or Steamed
+A4F_10021_0014.jpg,6,Cereals and Legumes,Bread,None
+A4F_10021_0014.jpg,6,Dairy and Plant-Based Drinks,Cheeses,None
+A4F_10021_0015.jpg,1,Beverages,Soft Drinks,None
+A4F_10021_0015.jpg,1,Cereals and Legumes,Bread,None
+A4F_10021_0015.jpg,1,Traditional Mediterranean Dishes,Paella,None
+A4F_10021_0015.jpg,1,Oils and Fats,Fats (Butter and Others),None
+A4F_10021_0015.jpg,1,Fast Food,Battered and Fried Foods,None
+A4F_10021_0015.jpg,1,Protein Sources,Seafood,Fried
+A4F_10021_0015.jpg,4,Traditional Mediterranean Dishes,Paella,Grilled
+A4F_10021_0015.jpg,4,Protein Sources,Cured Meats and Cold Cuts,Grilled
+A4F_10021_0015.jpg,4,Vegetables and Fruits,Potatoes,Oven-Baked
+A4F_10021_0015.jpg,4,Oils and Fats,Sauces and Condiments,None
+A4F_10021_0015.jpg,4,Cereals and Legumes,Bread,None
+A4F_10021_0015.jpg,4,Beverages,Soft Drinks,None
+A4F_10021_0015.jpg,6,Beverages,Alcoholic Beverages,Fermented
+A4F_10021_0015.jpg,6,Traditional Mediterranean Dishes,Paella,None
+A4F_10021_0015.jpg,6,Cereals and Legumes,Bread,None
+A4F_10021_0016.jpg,1,Fast Food,Burgers,None
+A4F_10021_0016.jpg,1,Vegetables and Fruits,Potatoes,Fried
+A4F_10021_0016.jpg,1,Oils and Fats,Sauces and Condiments,None
+A4F_10021_0016.jpg,1,Vegetables and Fruits,Vegetables and Greens,Fresh
+A4F_10021_0016.jpg,1,Beverages,Soft Drinks,None
+A4F_10021_0016.jpg,4,Fast Food,Burgers,None
+A4F_10021_0016.jpg,4,Vegetables and Fruits,Potatoes,Fried
+A4F_10021_0016.jpg,6,Fast Food,Burgers,None
+A4F_10021_0016.jpg,6,Beverages,Soft Drinks,None
+A4F_10021_0016.jpg,6,Vegetables and Fruits,Potatoes,Fried
+A4F_10021_0017.jpg,1,Beverages,Soft Drinks,None
+A4F_10021_0017.jpg,1,Cereals and Legumes,Bread,None
+A4F_10021_0017.jpg,1,Cereals and Legumes,Legumes,None
+A4F_10021_0017.jpg,1,Cereals and Legumes,Rice,Boiled or Steamed
+A4F_10021_0017.jpg,1,Protein Sources,Fish,Fried
+A4F_10021_0017.jpg,1,Vegetables and Fruits,Vegetables and Greens,Fried
+A4F_10021_0017.jpg,4,Vegetables and Fruits,Vegetables and Greens,Fresh
+A4F_10021_0017.jpg,4,Cereals and Legumes,Legumes,Boiled or Steamed
+A4F_10021_0017.jpg,4,Cereals and Legumes,Bread,None
+A4F_10021_0017.jpg,4,Beverages,Soft Drinks,None
+A4F_10021_0017.jpg,6,Beverages,Soft Drinks,None
+A4F_10021_0017.jpg,6,Cereals and Legumes,Bread,None
+A4F_10021_0017.jpg,6,Cereals and Legumes,Legumes,Boiled or Steamed
+A4F_10021_0017.jpg,6,Vegetables and Fruits,Vegetables and Greens,Grilled

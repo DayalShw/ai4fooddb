@@ -1,0 +1,491 @@
+
+
+base_iri: "http://example.org/ai4food/"
+ontology_path: "ontology/ontology.ttl"
+
+prefixes:
+  ex: "http://example.org/ai4food/"
+  xsd: "http://www.w3.org/2001/XMLSchema#"
+
+datasets:
+
+  # ===================== DS1 — Anthropometric Measurements =====================
+  - name: DS1_AnthropometricMeasurements
+    path: data/anthropometrics.csv
+    id_column: id
+    subject_template: "Patient_{id}_Visit_{visit}"
+    rdf_types: ["ex:anthropometrics", "ex:DS1_AnthropometricMeasurements"]
+    predicate_map:
+      period:             { predicate: "ex:period",             datatype: "xsd:string" }
+      current_weight_kg:  { predicate: "ex:current_weight_kg",  datatype: "xsd:float" }
+      bmi_kg_m2:          { predicate: "ex:bmi_kg_m2",          datatype: "xsd:float" }
+      fat_mass_perc:      { predicate: "ex:fat_mass_perc",      datatype: "xsd:float" }
+      muscle_mass_perc:   { predicate: "ex:muscle_mass_perc",   datatype: "xsd:float" }
+      visceral_fat_level: { predicate: "ex:visceral_fat_level", datatype: "xsd:float" }
+      basal_metabolism:   { predicate: "ex:basal_metabolism",   datatype: "xsd:float" }
+      waist_cm:           { predicate: "ex:waist_cm",           datatype: "xsd:float" }
+      hip_cm:             { predicate: "ex:hip_cm",             datatype: "xsd:float" }
+
+  # ===================== DS2 — Lifestyle & Health =====================
+  - name: DS2_LifestyleHealth_Health
+    path: data/health.csv
+    id_column: id
+    subject_template: "Patient_{id}_Visit_{visit}_Health"
+    rdf_types: ["ex:health", "ex:DS2_LifestyleHealth"]
+    predicate_map:
+      antacids:               { predicate: "ex:antacids",               datatype: "xsd:boolean" }
+      antibiotics:            { predicate: "ex:antibiotics",            datatype: "xsd:boolean" }
+      antidepressants:        { predicate: "ex:antidepressants",        datatype: "xsd:boolean" }
+      antihistamines:         { predicate: "ex:antihistamines",         datatype: "xsd:boolean" }
+      antihypertensives:      { predicate: "ex:antihypertensives",      datatype: "xsd:boolean" }
+      antiinflamatory:        { predicate: "ex:antiinflamatory",        datatype: "xsd:boolean" }
+      calcium:                { predicate: "ex:calcium",                datatype: "xsd:boolean" }
+      depression:             { predicate: "ex:depression",             datatype: "xsd:boolean" }
+      diabetes:               { predicate: "ex:diabetes",               datatype: "xsd:boolean" }
+      hypercholesterolemia:   { predicate: "ex:hypercholesterolemia",   datatype: "xsd:boolean" }
+      hypertension:           { predicate: "ex:hypertension",           datatype: "xsd:boolean" }
+      hypothyroidism:         { predicate: "ex:hypothyroidism",         datatype: "xsd:boolean" }
+      menopause:              { predicate: "ex:menopause",              datatype: "xsd:boolean" }
+      oral_contraceptive:     { predicate: "ex:oral_contraceptive",     datatype: "xsd:boolean" }
+      other_illness:          { predicate: "ex:other_illness",          datatype: "xsd:string" }
+      thyroid_hormone:        { predicate: "ex:thyroid_hormone",        datatype: "xsd:boolean" }
+      triglyceridemia:        { predicate: "ex:triglyceridemia",        datatype: "xsd:boolean" }
+
+  - name: DS2_LifestyleHealth_Lifestyle
+    path: data/lifestyle.csv
+    id_column: id
+    subject_template: "Patient_{id}_Visit_{visit}_Lifestyle"
+    rdf_types: ["ex:lifestyle", "ex:DS2_LifestyleHealth"]
+    predicate_map:
+      alcohol:                { predicate: "ex:alcohol",                datatype: "xsd:boolean" }
+      anxiety:                { predicate: "ex:anxiety",                datatype: "xsd:boolean" }
+      appetite:               { predicate: "ex:appetite",               datatype: "xsd:string" }
+      cigarettes_day:         { predicate: "ex:cigarettes_day",         datatype: "xsd:integer" }
+      cigars_day:             { predicate: "ex:cigars_day",             datatype: "xsd:integer" }
+      exercise:               { predicate: "ex:exercise",               datatype: "xsd:boolean" }
+      sleep_weekdays:         { predicate: "ex:sleep_weekdays",         datatype: "xsd:float" }
+      sleep_weekend:          { predicate: "ex:sleep_weekend",          datatype: "xsd:float" }
+      water_ml:               { predicate: "ex:water_ml",               datatype: "xsd:float" }
+      meals_weekdays_home:    { predicate: "ex:meals_weekdays_home",    datatype: "xsd:integer" }
+      meals_weekend_home:     { predicate: "ex:meals_weekend_home",     datatype: "xsd:integer" }
+      meals_weekdays_out:     { predicate: "ex:meals_weekdays_out",     datatype: "xsd:integer" }
+      meals_weekend_out:      { predicate: "ex:meals_weekend_out",      datatype: "xsd:integer" }
+      no_psychological:       { predicate: "ex:no_psychological",       datatype: "xsd:boolean" }
+      others_psychological:   { predicate: "ex:others_psychological",   datatype: "xsd:string" }
+
+  # ===================== DS3 — Biomarkers =====================
+  - name: DS3_Biomarkers_labpanel
+    path: data/biomarkers.csv
+    id_column: id
+    subject_template: "Patient_{id}_Visit_{visit}"
+    rdf_types: ["ex:biomarkers", "ex:DS3_Biomarkers"]
+    predicate_map:
+      leukocytes_10e3_ul:      { predicate: "ex:leukocytes_10e3_ul",      datatype: "xsd:float" }
+      plats_10e3_ul:           { predicate: "ex:plats_10e3_ul",           datatype: "xsd:float" }
+      lympho_10e3_ul:          { predicate: "ex:lympho_10e3_ul",          datatype: "xsd:float" }
+      mono_10e3_ul:            { predicate: "ex:mono_10e3_ul",            datatype: "xsd:float" }
+      seg_10e3_ul:             { predicate: "ex:seg_10e3_ul",             datatype: "xsd:float" }
+      eos_10e3_ul:             { predicate: "ex:eos_10e3_ul",             datatype: "xsd:float" }
+      baso_10e3_ul:            { predicate: "ex:baso_10e3_ul",            datatype: "xsd:float" }
+      erythrocytes_10e6_ul:    { predicate: "ex:erythrocytes_10e6_ul",    datatype: "xsd:float" }
+      hgb_g_dl:                { predicate: "ex:hgb_g_dl",                datatype: "xsd:float" }
+      hematocrit_perc:         { predicate: "ex:hematocrit_perc",         datatype: "xsd:float" }
+      mcv_fl:                  { predicate: "ex:mcv_fl",                  datatype: "xsd:float" }
+      mpv_fl:                  { predicate: "ex:mpv_fl",                  datatype: "xsd:float" }
+      mch_pg:                  { predicate: "ex:mch_pg",                  datatype: "xsd:float" }
+      mchc_g_dl:               { predicate: "ex:mchc_g_dl",               datatype: "xsd:float" }
+      rdw_perc:                { predicate: "ex:rdw_perc",                datatype: "xsd:float" }
+      lympho_perc:             { predicate: "ex:lympho_perc",             datatype: "xsd:float" }
+      mono_perc:               { predicate: "ex:mono_perc",               datatype: "xsd:float" }
+      seg_perc:                { predicate: "ex:seg_perc",                datatype: "xsd:float" }
+      eos_perc:                { predicate: "ex:eos_perc",                datatype: "xsd:float" }
+      baso_perc:               { predicate: "ex:baso_perc",               datatype: "xsd:float" }
+      hba1c_perc:              { predicate: "ex:hba1c_perc",              datatype: "xsd:float" }
+      hba1ifcc_mmol_mol:       { predicate: "ex:hba1ifcc_mmol_mol",       datatype: "xsd:float" }
+      insulin_uui_ml:          { predicate: "ex:insulin_uui_ml",          datatype: "xsd:float" }
+      homa:                    { predicate: "ex:homa",                    datatype: "xsd:float" }
+      glu_mg_dl:               { predicate: "ex:glu_mg_dl",               datatype: "xsd:float" }
+      chol_mg_dl:              { predicate: "ex:chol_mg_dl",              datatype: "xsd:float" }
+      tri_mg_dl:               { predicate: "ex:tri_mg_dl",               datatype: "xsd:float" }
+      hdl_mg_dl:               { predicate: "ex:hdl_mg_dl",               datatype: "xsd:float" }
+      ldl_mg_dl:               { predicate: "ex:ldl_mg_dl",               datatype: "xsd:float" }
+      homocysteine_umol_l:     { predicate: "ex:homocysteine_umol_l",     datatype: "xsd:float" }
+      alb_g_dl:                { predicate: "ex:alb_g_dl",                datatype: "xsd:float" }
+      prealbumin_mg_dl:        { predicate: "ex:prealbumin_mg_dl",        datatype: "xsd:float" }
+      crp_mg_dl:               { predicate: "ex:crp_mg_dl",               datatype: "xsd:float" }
+      igg_mg_dl:               { predicate: "ex:igg_mg_dl",               datatype: "xsd:float" }
+      iga_mg_dl:               { predicate: "ex:iga_mg_dl",               datatype: "xsd:float" }
+      igm_mg_dl:               { predicate: "ex:igm_mg_dl",               datatype: "xsd:float" }
+      ige_ui_ml:               { predicate: "ex:ige_ui_ml",               datatype: "xsd:float" }
+      tnf_a_ui_ml:             { predicate: "ex:tnf_a_ui_ml",             datatype: "xsd:float" }
+      adiponectin_ug_ml:       { predicate: "ex:adiponectin_ug_ml",       datatype: "xsd:float" }
+
+  - name: DS3_Biomarkers_glucose
+    path: data/A4F_10021_glucose_levels.csv
+    id_column: id
+    subject_template: "Patient_{id}_Visit_{visit}_Glucose_{timestamp}"
+    rdf_types: ["ex:glucose_levels", "ex:DS3_Biomarkers"]
+    predicate_map:
+      glucose_value_in_mg_dl: { predicate: "ex:glucose_value_in_mg_dl", datatype: "xsd:float" }
+      timestamp:              { predicate: "ex:timestamp",              datatype: "xsd:string" }
+
+  # ===================== DS4 — Vital Signs =====================
+  - name: DS4_VitalSigns_HeartRate
+    path: data/A4F_10021_heart_rate.csv
+    id_column: id
+    subject_template: "Patient_{id}_Visit_{visit}_HeartRate"
+    rdf_types: ["ex:A4F_10021_heart_rate", "ex:HeartRate", "ex:DS4_VitalSigns"]
+    predicate_map:
+      heart_rate:  { predicate: "ex:heart_rate", datatype: "xsd:float" }
+      timestamp:   { predicate: "ex:timestamp",  datatype: "xsd:string" }
+
+  - name: DS4_VitalSigns_ECG
+    path: data/A4F_10021_electrocardiogram.csv
+    id_column: id
+    subject_template: "Patient_{id}_Visit_{visit}_ECG"
+    rdf_types: ["ex:A4F_10021_electrocardiogram", "ex:electrocardiogram", "ex:DS4_VitalSigns"]
+    predicate_map:
+      average_heart_rate:    { predicate: "ex:average_heart_rate",     datatype: "xsd:float" }
+      heart_rate_alert:      { predicate: "ex:heart_rate_alert",       datatype: "xsd:boolean" }
+      result_classification: { predicate: "ex:result_classification",  datatype: "xsd:string" }
+      timestamp:             { predicate: "ex:timestamp",              datatype: "xsd:string" }
+      waveform_samples:      { predicate: "ex:waveform_samples",       datatype: "xsd:string" }
+
+  - name: DS4_VitalSigns_Main
+    path: data/vital_signs.csv
+    id_column: id
+    subject_template: "Patient_{id}_Visit_{visit}_VitalSigns"
+    rdf_types: ["ex:vital_signs", "ex:DS4_VitalSigns"]
+    predicate_map:
+      heart_rate_bpm:                { predicate: "ex:heart_rate_bpm",                datatype: "xsd:float" }
+      systolic_blood_pressure_mmhg:  { predicate: "ex:systolic_blood_pressure_mmhg",  datatype: "xsd:float" }
+      diastolic_blood_pressure_mmhg: { predicate: "ex:diastolic_blood_pressure_mmhg", datatype: "xsd:float" }
+      visit:                         { predicate: "ex:visit",                         datatype: "xsd:string" }
+
+  # ===================== DS5 — Physical Activity =====================
+  - name: DS5_PhysicalActivity_IPAQ
+    path: data/IPAQ.csv
+    id_column: id
+    subject_template: "Patient_{id}_Visit_{visit}_IPAQ"
+    rdf_types: ["ex:IPAQ", "ex:DS5_PhysicalActivity"]
+    predicate_map:
+      categorical_score:   { predicate: "ex:categorical_score", datatype: "xsd:string" }
+      moderate_met:        { predicate: "ex:moderate_met",      datatype: "xsd:float" }
+      moderate_min_day:    { predicate: "ex:moderate_min_day",  datatype: "xsd:float" }
+      moderate_n_days:     { predicate: "ex:moderate_n_days",   datatype: "xsd:float" }
+      total_met:           { predicate: "ex:total_met",         datatype: "xsd:float" }
+      vigorous_met:        { predicate: "ex:vigorous_met",      datatype: "xsd:float" }
+      vigorous_min_day:    { predicate: "ex:vigorous_min_day",  datatype: "xsd:float" }
+      vigorous_n_days:     { predicate: "ex:vigorous_n_days",   datatype: "xsd:float" }
+      walking_met:         { predicate: "ex:walking_met",       datatype: "xsd:float" }
+      walking_min_day:     { predicate: "ex:walking_min_day",   datatype: "xsd:float" }
+      walking_n_days:      { predicate: "ex:walking_n_days",    datatype: "xsd:float" }
+      visit:               { predicate: "ex:visit",             datatype: "xsd:string" }
+
+  - name: DS5_PhysicalActivity_ActiveMinutes
+    path: data/A4F_10021_active_minutes.csv
+    id_column: id
+    subject_template: "Patient_{id}_Visit_{visit}_ActiveMinutes_{timestamp}"
+    rdf_types: ["ex:A4F_10021_active_minutes", "ex:active_minutes", "ex:DS5_PhysicalActivity"]
+    predicate_map:
+      cardio_minutes:             { predicate: "ex:cardio_minutes",              datatype: "xsd:float" }
+      fat_burn_minutes:           { predicate: "ex:fat_burn_minutes",            datatype: "xsd:float" }
+      lightly_active_minutes:     { predicate: "ex:lightly_active_minutes",      datatype: "xsd:float" }
+      moderately_active_minutes:  { predicate: "ex:moderately_active_minutes",   datatype: "xsd:float" }
+      peak_minutes:               { predicate: "ex:peak_minutes",                datatype: "xsd:float" }
+      sedentary_minutes:          { predicate: "ex:sedentary_minutes",           datatype: "xsd:float" }
+      very_active_minutes:        { predicate: "ex:very_active_minutes",         datatype: "xsd:float" }
+      timestamp:                  { predicate: "ex:timestamp",                   datatype: "xsd:string" }
+
+  - name: DS5_PhysicalActivity_Additional
+    path: data/A4F_10021_additional_physical_activity_data.csv
+    id_column: id
+    subject_template: "Patient_{id}_Visit_{visit}_PAExtra_{timestamp}"
+    rdf_types: ["ex:A4F_10021_additional_physical_activity_data", "ex:additional_physical_activity_data", "ex:DS5_PhysicalActivity"]
+    predicate_map:
+      altitude:                     { predicate: "ex:altitude",                      datatype: "xsd:float" }
+      calories:                     { predicate: "ex:calories",                      datatype: "xsd:float" }
+      distance:                     { predicate: "ex:distance",                      datatype: "xsd:float" }
+      minutes_below_default_zone_1: { predicate: "ex:minutes_below_default_zone_1",  datatype: "xsd:float" }
+      minutes_in_default_zone_1:    { predicate: "ex:minutes_in_default_zone_1",     datatype: "xsd:float" }
+      minutes_in_default_zone_2:    { predicate: "ex:minutes_in_default_zone_2",     datatype: "xsd:float" }
+      minutes_in_default_zone_3:    { predicate: "ex:minutes_in_default_zone_3",     datatype: "xsd:float" }
+      resting_heart_rate:           { predicate: "ex:resting_heart_rate",           datatype: "xsd:float" }
+      steps:                        { predicate: "ex:steps",                         datatype: "xsd:float" }
+      timestamp:                    { predicate: "ex:timestamp",                     datatype: "xsd:string" }
+
+  - name: DS5_PhysicalActivity_VO2
+    path: data/A4F_10021_estimated_vo2.csv
+    id_column: id
+    subject_template: "Patient_{id}_Visit_{visit}_VO2_{timestamp}"
+    rdf_types: ["ex:A4F_10021_estimated_vo2", "ex:estimated_VO2", "ex:DS5_PhysicalActivity"]
+    predicate_map:
+      demographic_vo2_max:              { predicate: "ex:demographic_vo2_max",              datatype: "xsd:float" }
+      registered_demographic_vo2_max_error: { predicate: "ex:registered_demographic_vo2_max_error", datatype: "xsd:float" }
+      filtered_demographic_vo2_max:     { predicate: "ex:filtered_demographic_vo2_max",     datatype: "xsd:float" }
+      filtered_demographic_vo2_max_error: { predicate: "ex:filtered_demographic_vo2_max_error", datatype: "xsd:float" }
+      timestamp:                        { predicate: "ex:timestamp",                        datatype: "xsd:string" }
+
+
+  - name: DS5_PhysicalActivity_Reports
+    path: data/A4F_10660_physical_activity_reports.csv
+    id_column: id
+    subject_template: "Patient_{id}_PAReport_{timestamp}"
+    rdf_types: ["ex:A4F_10660_physical_activity_reports", "ex:physical_activity_reports", "ex:DS5_PhysicalActivity"]
+    predicate_map:
+      activity_name:                    { predicate: "ex:activity_name",                     datatype: "xsd:string" }
+      active_duration:                  { predicate: "ex:active_duration",                   datatype: "xsd:float" }
+      average_heart_rate:               { predicate: "ex:average_heart_rate",                datatype: "xsd:float" }
+      calories:                         { predicate: "ex:calories",                          datatype: "xsd:float" }
+      cardio_calories:                  { predicate: "ex:cardio_calories",                   datatype: "xsd:float" }
+      cardio_maximum_heart_rate:        { predicate: "ex:cardio_maximum_heart_rate",         datatype: "xsd:float" }
+      cardio_minimum_heart_rate:        { predicate: "ex:cardio_minimum_heart_rate",         datatype: "xsd:float" }
+      cardio_minutes:                   { predicate: "ex:cardio_minutes",                    datatype: "xsd:float" }
+      duration:                         { predicate: "ex:duration",                          datatype: "xsd:float" }
+      fairly_active_minutes:            { predicate: "ex:fairly_active_minutes",             datatype: "xsd:float" }
+      fat_burn_calories:                { predicate: "ex:fat_burn_calories",                 datatype: "xsd:float" }
+      fat_burn_maximum_heart_rate:      { predicate: "ex:fat_burn_maximum_heart_rate",       datatype: "xsd:float" }
+      fat_burn_minimum_heart_rate:      { predicate: "ex:fat_burn_minimum_heart_rate",       datatype: "xsd:float" }
+      fat_burn_minutes:                 { predicate: "ex:fat_burn_minutes",                  datatype: "xsd:float" }
+      lightly_active_minutes:           { predicate: "ex:lightly_active_minutes",            datatype: "xsd:float" }
+      out_of_range_calories:            { predicate: "ex:out_of_range_calories",             datatype: "xsd:float" }
+      out_of_range_maximum_heart_rate:  { predicate: "ex:out_of_range_maximum_heart_rate",   datatype: "xsd:float" }
+      out_of_range_minimum_heart_rate:  { predicate: "ex:out_of_range_minimum_heart_rate",   datatype: "xsd:float" }
+      out_of_range_minutes:             { predicate: "ex:out_of_range_minutes",              datatype: "xsd:float" }
+      peak_calories:                    { predicate: "ex:peak_calories",                     datatype: "xsd:float" }
+      peak_maximum_heart_rate:          { predicate: "ex:peak_maximum_heart_rate",           datatype: "xsd:float" }
+      peak_minimum_heart_rate:          { predicate: "ex:peak_minimum_heart_rate",           datatype: "xsd:float" }
+      peak_minutes:                     { predicate: "ex:peak_minutes",                      datatype: "xsd:float" }
+      sedentary_minutes:                { predicate: "ex:sedentary_minutes",                 datatype: "xsd:float" }
+      steps:                            { predicate: "ex:steps",                             datatype: "xsd:float" }
+      timestamp:                        { predicate: "ex:timestamp",                         datatype: "xsd:string" }
+      very_active_minutes:              { predicate: "ex:very_active_minutes",               datatype: "xsd:float" }
+
+  # ===================== DS6 — Sleep Activity =====================
+  - name: DS6_SleepActivity_Oviedo
+    path: data/OviedoSleepQuestionnaire.csv
+    id_column: id
+    subject_template: "Patient_{id}_Visit_{visit}_Oviedo"
+    rdf_types: ["ex:OviedoSleepQuestionnaire","ex:DS6_SleepActivity"]
+    predicate_map:
+      1_satisfaction_sleep: { predicate: "ex:1_satisfaction_sleep", datatype: "xsd:float" }
+      2_1_initiate_sleep:   { predicate: "ex:2_1_initiate_sleep",   datatype: "xsd:float" }
+      2_2_remain_sleep:     { predicate: "ex:2_2_remain_sleep",     datatype: "xsd:float" }
+      2_3_restorative_sleep: { predicate: "ex:2_3_restorative_sleep", datatype: "xsd:float" }
+      2_4_usual_waking_up:   { predicate: "ex:2_4_usual_waking_up",   datatype: "xsd:float" }
+      2_5_excessive_somnolence: { predicate: "ex:2_5_excessive_somnolence", datatype: "xsd:float" }
+      3_fall_asleep:        { predicate: "ex:3_fall_asleep",        datatype: "xsd:float" }
+      4_wake_up_night:      { predicate: "ex:4_wake_up_night",      datatype: "xsd:float" }
+      5_wake_up_earlier:    { predicate: "ex:5_wake_up_earlier",    datatype: "xsd:float" }
+      6a_hours_sleep:       { predicate: "ex:6a_hours_sleep",       datatype: "xsd:float" }
+      6b_hours_bed:         { predicate: "ex:6b_hours_bed",         datatype: "xsd:float" }
+      6c_sleep_efficiency:  { predicate: "ex:6c_sleep_efficiency",  datatype: "xsd:float" }
+      7_tiredness_not_sleep: { predicate: "ex:7_tiredness_not_sleep", datatype: "xsd:float" }
+      8_somnolence_days:    { predicate: "ex:8_somnolence_days",    datatype: "xsd:float" }
+      9_somnolence_effects: { predicate: "ex:9_somnolence_effects", datatype: "xsd:float" }
+      insomnia_score:       { predicate: "ex:insomnia_score",       datatype: "xsd:float" }
+      somnolence_score:     { predicate: "ex:somnolence_score",     datatype: "xsd:float" }
+      sleep_satisfaction_score: { predicate: "ex:sleep_satisfaction_score", datatype: "xsd:float" }
+      total_score:          { predicate: "ex:total_score",          datatype: "xsd:float" }
+
+  - name: DS6_SleepActivity_AdditionalSleep
+    path: data/A4F_10021_additional_sleep_data.csv
+    id_column: id
+    subject_template: "Patient_{id}_Visit_{visit}_Sleep_{sleep_id}"
+    rdf_types: ["ex:additional_sleep_data","ex:DS6_SleepActivity"]
+    predicate_map:
+      main_sleep:            { predicate: "ex:main_sleep",            datatype: "xsd:boolean" }
+      minutes_asleep:        { predicate: "ex:minutes_asleep",        datatype: "xsd:float" }
+      minutes_awake:         { predicate: "ex:minutes_awake",         datatype: "xsd:float" }
+      minutes_in_bed:        { predicate: "ex:minutes_in_bed",        datatype: "xsd:float" }
+      minutes_in_deep_sleep: { predicate: "ex:minutes_in_deep_sleep", datatype: "xsd:float" }
+      minutes_in_light_sleep: { predicate: "ex:minutes_in_light_sleep", datatype: "xsd:float" }
+      minutes_in_rem:        { predicate: "ex:minutes_in_rem",        datatype: "xsd:float" }
+      start_time:            { predicate: "ex:start_time",            datatype: "xsd:string" }
+      end_time:              { predicate: "ex:end_time",              datatype: "xsd:string" }
+      duration:              { predicate: "ex:duration",              datatype: "xsd:float" }
+
+  - name: DS6_SleepActivity_HRV
+    path: data/A4F_10021_heart_rate_variability.csv
+    id_column: id
+    subject_template: "Patient_{id}_Visit_{visit}_HRV_{timestamp}"
+    rdf_types: ["ex:A4F_10021_heart_rate_variability","ex:heart_rate_variability","ex:DS6_SleepActivity"]
+    predicate_map:
+      entropy:   { predicate: "ex:entropy",   datatype: "xsd:float" }
+      nrem_hr:   { predicate: "ex:nrem_hr",   datatype: "xsd:float" }
+      rmssd:     { predicate: "ex:rmssd",     datatype: "xsd:float" }
+      timestamp: { predicate: "ex:timestamp", datatype: "xsd:string" }
+
+  - name: DS6_SleepActivity_O2Daily
+    path: data/A4F_10021_daily_oxygen_saturation.csv
+    id_column: id
+    subject_template: "Patient_{id}_Visit_{visit}_O2Daily_{timestamp}"
+    rdf_types: ["ex:A4F_10021_daily_oxygen_saturation","ex:oxygen_saturation","ex:DS6_SleepActivity"]
+    predicate_map:
+      lower_bound_oxygen_saturation:   { predicate: "ex:lower_bound_oxygen_saturation",   datatype: "xsd:float" }
+      sleep_average_oxygen_saturation: { predicate: "ex:sleep_average_oxygen_saturation", datatype: "xsd:float" }
+      upper_bound_oxygen_saturation:   { predicate: "ex:upper_bound_oxygen_saturation",   datatype: "xsd:float" }
+      timestamp:                       { predicate: "ex:timestamp",                       datatype: "xsd:string" }
+
+  - name: DS6_SleepActivity_O2ByMinute
+    path: data/A4F_10021_oxygen_saturation_by_minute.csv
+    id_column: id
+    subject_template: "Patient_{id}_Visit_{visit}_O2Min_{timestamp}"
+    rdf_types: ["ex:A4F_10021_oxygen_saturation_by_minute","ex:oxygen_saturation","ex:DS6_SleepActivity"]
+    predicate_map:
+      oxygen_saturation_by_minute: { predicate: "ex:oxygen_saturation_by_minute", datatype: "xsd:float" }
+      timestamp:                   { predicate: "ex:timestamp",                   datatype: "xsd:string" }
+
+  - name: DS6_SleepActivity_RespRate
+    path: data/A4F_10021_respiratory_rate.csv
+    id_column: id
+    subject_template: "Patient_{id}_Visit_{visit}_Resp_{timestamp}"
+    rdf_types: ["ex:A4F_10021_respiratory_rate","ex:respiratory_rate","ex:DS6_SleepActivity"]
+    predicate_map:
+      deep_sleep_breathing_rate:      { predicate: "ex:deep_sleep_breathing_rate",      datatype: "xsd:float" }
+      deep_sleep_signal_to_noise:     { predicate: "ex:deep_sleep_signal_to_noise",     datatype: "xsd:float" }
+      deep_sleep_standard_deviation:  { predicate: "ex:deep_sleep_standard_deviation",  datatype: "xsd:float" }
+      full_sleep_breathing_rate:      { predicate: "ex:full_sleep_breathing_rate",      datatype: "xsd:float" }
+      full_sleep_signal_to_noise:     { predicate: "ex:full_sleep_signal_to_noise",     datatype: "xsd:float" }
+      full_sleep_standard_deviation:  { predicate: "ex:full_sleep_standard_deviation",  datatype: "xsd:float" }
+      light_sleep_breathing_rate:     { predicate: "ex:light_sleep_breathing_rate",     datatype: "xsd:float" }
+      light_sleep_signal_to_noise:    { predicate: "ex:light_sleep_signal_to_noise",    datatype: "xsd:float" }
+      light_sleep_standard_deviation: { predicate: "ex:light_sleep_standard_deviation", datatype: "xsd:float" }
+      rem_sleep_breathing_rate:       { predicate: "ex:rem_sleep_breathing_rate",       datatype: "xsd:float" }
+      rem_sleep_signal_to_noise:      { predicate: "ex:rem_sleep_signal_to_noise",      datatype: "xsd:float" }
+      rem_sleep_standard_deviation:   { predicate: "ex:rem_sleep_standard_deviation",   datatype: "xsd:float" }
+      timestamp:                      { predicate: "ex:timestamp",                      datatype: "xsd:string" }
+
+  - name: DS6_SleepActivity_CompTemp
+    path: data/A4F_10021_computed_temperature.csv
+    id_column: id
+    subject_template: "Patient_{id}_Visit_{visit}_CompTemp_{start_sleep}"
+    rdf_types: ["ex:A4F_10021_computed_temperature","ex:skin_temperature","ex:DS6_SleepActivity"]
+    predicate_map:
+      baseline_relative_nightly_standard_deviation: { predicate: "ex:baseline_relative_nightly_standard_deviation", datatype: "xsd:float" }
+      baseline_relative_sample_standard_deviation:  { predicate: "ex:baseline_relative_sample_standard_deviation",  datatype: "xsd:float" }
+      baseline_relative_sample_sum:                 { predicate: "ex:baseline_relative_sample_sum",                 datatype: "xsd:float" }
+      baseline_relative_sample_sum_of_squares:      { predicate: "ex:baseline_relative_sample_sum_of_squares",      datatype: "xsd:float" }
+      nightly_temperature:                          { predicate: "ex:nightly_temperature",                          datatype: "xsd:float" }
+      start_sleep:                                  { predicate: "ex:start_sleep",                                  datatype: "xsd:string" }
+      end_sleep:                                    { predicate: "ex:end_sleep",                                    datatype: "xsd:string" }
+      temperature_samples:                          { predicate: "ex:temperature_samples",                          datatype: "xsd:string" }
+
+  - name: DS6_SleepActivity_WristTemp
+    path: data/A4F_10021_wrist_temperature.csv
+    id_column: id
+    subject_template: "Patient_{id}_Visit_{visit}_WristTemp_{timestamp}"
+    rdf_types: ["ex:A4F_10021_wrist_temperature","ex:skin_temperature","ex:DS6_SleepActivity"]
+    predicate_map:
+      temperature_difference: { predicate: "ex:temperature_difference", datatype: "xsd:float" }
+      timestamp:              { predicate: "ex:timestamp",              datatype: "xsd:string" }
+
+  - name: DS6_SleepActivity_SleepQuality
+    path: data/A4F_10021_sleep_quality.csv
+    id_column: id
+    subject_template: "Patient_{id}_Visit_{visit}_SleepQuality_{sleep_id}"
+    rdf_types: ["ex:A4F_10021_sleep_quality","ex:sleep_quality","ex:DS6_SleepActivity"]
+    predicate_map:
+      composition_score:    { predicate: "ex:composition_score",    datatype: "xsd:float" }
+      duration_score:       { predicate: "ex:duration_score",       datatype: "xsd:float" }
+      overall_score:        { predicate: "ex:overall_score",        datatype: "xsd:float" }
+      resting_heart_rate:   { predicate: "ex:resting_heart_rate",   datatype: "xsd:float" }
+      restlessness:         { predicate: "ex:restlessness",         datatype: "xsd:float" }
+      revitalization_score: { predicate: "ex:revitalization_score", datatype: "xsd:float" }
+      start_time:           { predicate: "ex:start_time",           datatype: "xsd:string" }
+      end_time:             { predicate: "ex:end_time",             datatype: "xsd:string" }
+
+  # ===================== DS7 — Emotional State =====================
+  - name: DS7_EmotionalState_DASS21
+    path: data/DASS-21.csv
+    id_column: id
+    subject_template: "Patient_{id}_Visit_{visit}_DASS21"
+    rdf_types: ["ex:DASS-21","ex:DS7_EmotionalState"]
+    predicate_map:
+      1_wind_down:            { predicate: "ex:1_wind_down",            datatype: "xsd:float" }
+      2_mouth_dryness:        { predicate: "ex:2_mouth_dryness",        datatype: "xsd:float" }
+      3_no_positive_feelings: { predicate: "ex:3_no_positive_feelings", datatype: "xsd:float" }
+      4_difficulty_breathing: { predicate: "ex:4_difficulty_breathing", datatype: "xsd:float" }
+      5_no_initiative:        { predicate: "ex:5_no_initiative",        datatype: "xsd:float" }
+      6_overreact:            { predicate: "ex:6_overreact",            datatype: "xsd:float" }
+      7_trembling:            { predicate: "ex:7_trembling",            datatype: "xsd:float" }
+      8_nervous_energy:       { predicate: "ex:8_nervous_energy",       datatype: "xsd:float" }
+      9_panic:                { predicate: "ex:9_panic",                datatype: "xsd:float" }
+      10_no_prospects:        { predicate: "ex:10_no_prospects",        datatype: "xsd:float" }
+      11_agitation:           { predicate: "ex:11_agitation",           datatype: "xsd:float" }
+      12_no_relax:            { predicate: "ex:12_no_relax",            datatype: "xsd:float" }
+      13_downhearted:         { predicate: "ex:13_downhearted",         datatype: "xsd:float" }
+      14_intolerance:         { predicate: "ex:14_intolerance",         datatype: "xsd:float" }
+      15_close_to_panic:      { predicate: "ex:15_close_to_panic",      datatype: "xsd:float" }
+      16_no_enthusiasm:       { predicate: "ex:16_no_enthusiasm",       datatype: "xsd:float" }
+      17_selfworth:           { predicate: "ex:17_selfworth",           datatype: "xsd:float" }
+      18_touchy:              { predicate: "ex:18_touchy",              datatype: "xsd:float" }
+      19_heart:               { predicate: "ex:19_heart",               datatype: "xsd:float" }
+      20_scared:              { predicate: "ex:20_scared",              datatype: "xsd:float" }
+      21_meaningless:         { predicate: "ex:21_meaningless",         datatype: "xsd:float" }
+      anxiety_score:          { predicate: "ex:anxiety_score",          datatype: "xsd:float" }
+      depression_score:       { predicate: "ex:depression_score",       datatype: "xsd:float" }
+      total_score:            { predicate: "ex:total_score",            datatype: "xsd:float" }
+      visit:                  { predicate: "ex:visit",                  datatype: "xsd:string" }
+
+  - name: DS7_EmotionalState_EDA
+    path: data/A4F_10021_eda_sessions.csv
+    id_column: id
+    subject_template: "Patient_{id}_Visit_{visit}_EDA_{timestamp}"
+    rdf_types: ["ex:A4F_10021_eda_sessions","ex:eda_sessions","ex:DS7_EmotionalState"]
+    predicate_map:
+      average_heart_rate:      { predicate: "ex:average_heart_rate",     datatype: "xsd:float" }
+      end_heart_rate:          { predicate: "ex:end_heart_rate",         datatype: "xsd:float" }
+      hrv_baseline:            { predicate: "ex:hrv_baseline",           datatype: "xsd:float" }
+      skin_conductance_levels: { predicate: "ex:skin_conductance_levels", datatype: "xsd:float" }
+      start_heart_rate:        { predicate: "ex:start_heart_rate",       datatype: "xsd:float" }
+      timestamp:               { predicate: "ex:timestamp",              datatype: "xsd:string" }
+
+  - name: DS7_EmotionalState_Stress
+    path: data/A4F_10021_stress_score.csv
+    id_column: id
+    subject_template: "Patient_{id}_Visit_{visit}_Stress_{timestamp}"
+    rdf_types: ["ex:A4F_10021_stress_score","ex:stress_score","ex:DS7_EmotionalState"]
+    predicate_map:
+      exertion_points:        { predicate: "ex:exertion_points",        datatype: "xsd:float" }
+      responsiveness_points:  { predicate: "ex:responsiveness_points",  datatype: "xsd:float" }
+      sleep_points:           { predicate: "ex:sleep_points",           datatype: "xsd:float" }
+      stress_score:           { predicate: "ex:stress_score",           datatype: "xsd:float" }
+      timestamp:              { predicate: "ex:timestamp",              datatype: "xsd:string" }
+
+  # ===================== DS9 — FoodNExtDB =====================
+  - name: DS9_FoodNExtDB_LabeledData
+    path: data/A4F_10021_labeled_data.csv
+    id_column: id
+    subject_template: "Patient_{id}_Label_{id_labeler}"
+    rdf_types: ["ex:A4F_10021_labeled_data", "ex:DS9_FoodNExtDB"]
+    predicate_map:
+      category:       { predicate: "ex:category",       datatype: "xsd:string" }
+      subcategory:    { predicate: "ex:subcategory",    datatype: "xsd:string" }
+      cooking_style:  { predicate: "ex:cooking_style",  datatype: "xsd:string" }
+      id_labeler:     { predicate: "ex:id_labeler",     datatype: "xsd:string" }
+
+  - name: DS9_FoodNExtDB_Timestamps
+    path: data/A4F_10021_timestamps.csv
+    id_column: id
+    subject_template: "Patient_{id}_FoodTimestamp_{timestamp}"
+    rdf_types: ["ex:A4F_10021_timestamps", "ex:DS9_FoodNExtDB"]
+    predicate_map:
+      original_timestamp_validity: { predicate: "ex:original_timestamp_validity", datatype: "xsd:string" }
+      timestamp:                   { predicate: "ex:timestamp",                   datatype: "xsd:string" }
+
+  # ===================== Participant Information =====================
+  - name: Participant_Information
+    path: data/participant_information.csv
+    id_column: id
+    subject_template: "Patient_{id}_ParticipantInfo"
+    rdf_types: ["ex:participant_information"]
+    predicate_map:
+      age:                    { predicate: "ex:age",                    datatype: "xsd:integer" }
+      sex:                    { predicate: "ex:sex",                    datatype: "xsd:string" }
+      group:                  { predicate: "ex:group",                  datatype: "xsd:string" }
+      finished_intervention:  { predicate: "ex:finished_intervention",  datatype: "xsd:boolean" }
+      intervention_diet_kcal: { predicate: "ex:intervention_diet_kcal", datatype: "xsd:float" }
+      height_cm:              { predicate: "ex:height_cm",              datatype: "xsd:float" }
+      usual_weight_kg:        { predicate: "ex:usual_weight_kg",        datatype: "xsd:float" }
+      weight_5years_kg:       { predicate: "ex:weight_5years_kg",       datatype: "xsd:float" }
